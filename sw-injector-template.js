@@ -8,13 +8,15 @@ const throttle = (func, delay) => {
 	return function (...args) {
 		if (timeout === null) {
 			func.apply(this, args);
-			timeout = setTimeout(() => { timeout = null; }, delay);
+			timeout = setTimeout(() => {
+				timeout = null;
+			}, delay);
 		}
 	};
 };
 
 const fetchError = {
-	"generic": throttle(() => {
+	generic: throttle(() => {
 		JqueryUtil.doToast({
 			content: `Failed to fetch some generic content\u2014you are offline and have not viewed this content before. Pages may not load correctly.`,
 			type: "warning",
@@ -22,7 +24,7 @@ const fetchError = {
 		});
 	}, 10_000 /* 10 seconds */),
 
-	"json": throttle(() => {
+	json: throttle(() => {
 		JqueryUtil.doToast({
 			content: `Failed to fetch data\u2014you are offline and have not viewed this content before. This page may not load correctly.`,
 			type: "danger",
@@ -30,7 +32,7 @@ const fetchError = {
 		});
 	}, 2_000 /* 2 seconds */),
 
-	"image": throttle(() => {
+	image: throttle(() => {
 		JqueryUtil.doToast({
 			content: `Failed to fetch images\u2014you are offline and have not viewed this content before. Images may not display correctly.`,
 			type: "info",
@@ -42,10 +44,9 @@ const fetchError = {
 const wb = new Workbox("sw.js");
 
 wb.addEventListener("controlling", () => {
-	const lnk = ee`<a href="${Renderer.get().baseUrl}changelog.html" class="alert-link">changelog</a>`
-		.onn("click", evt => {
-			evt.stopPropagation();
-		});
+	const lnk = ee`<a href="${Renderer.get().baseUrl}changelog.html" class="alert-link">changelog</a>`.onn("click", (evt) => {
+		evt.stopPropagation();
+	});
 	JqueryUtil.doToast({
 		content: ee`<div>${window.location.hostname} has been updated\u2014reload to see new content, and ensure the page is displayed correctly. See the ${lnk} for more info!</div>`,
 		type: "success",
@@ -68,14 +69,14 @@ const swCacheRoutes = (routeRegex) => {
 		type: "CACHE_ROUTES",
 		payload: { routeRegex },
 	});
-	JqueryUtil.doToast({content: "Starting preload...", autoHideTime: 500});
+	JqueryUtil.doToast({ content: "Starting preload...", autoHideTime: 500 });
 };
 
 /**
  * ask the service worker to cancel route caching
  */
 const swCancelCacheRoutes = () => {
-	wb.messageSW({type: "CANCEL_CACHE_ROUTES"});
+	wb.messageSW({ type: "CANCEL_CACHE_ROUTES" });
 	setTimeout(() => {
 		removeDownloadBar();
 		JqueryUtil.doToast("Preload was canceled. Some data may have been preloaded.");
@@ -86,8 +87,8 @@ const swCancelCacheRoutes = () => {
  * Ask the service worker to remove itself.
  */
 const swResetAll = () => {
-	wb.messageSW({type: "RESET"});
-	JqueryUtil.doToast({content: "Resetting..."});
+	wb.messageSW({ type: "RESET" });
+	JqueryUtil.doToast({ content: "Resetting..." });
 };
 
 // icky global but no bundler, so no other good choice
@@ -115,10 +116,9 @@ const initDownloadBar = () => {
 	const $displayProgress = $(`<div class="page__disp-download-progress-bar"></div>`);
 	const $displayPercent = $(`<div class="page__disp-download-progress-text ve-flex-vh-center bold">0%</div>`);
 
-	const $btnCancel = $(`<button class="ve-btn ve-btn-default"><span class="glyphicon glyphicon-remove"></span></button>`)
-		.click(() => {
-			swCancelCacheRoutes();
-		});
+	const $btnCancel = $(`<button class="ve-btn ve-btn-default"><span class="glyphicon glyphicon-remove"></span></button>`).click(() => {
+		swCancelCacheRoutes();
+	});
 
 	const $wrapBar = $$`<div class="page__wrp-download-bar w-100 relative mr-2">${$displayProgress}${$displayPercent}</div>`;
 	const $wrapOuter = $$`<div class="page__wrp-download">
@@ -126,7 +126,7 @@ const initDownloadBar = () => {
 			${$btnCancel}
 		</div>`.appendTo(document.body);
 
-	downloadBar = {$wrapOuter, $wrapBar, $displayProgress, $displayPercent};
+	downloadBar = { $wrapOuter, $wrapBar, $displayProgress, $displayPercent };
 };
 
 /**
@@ -158,16 +158,13 @@ const updateDownloadBar = (msg) => {
 
 			setTimeout(() => {
 				removeDownloadBar();
-				JqueryUtil.doToast(
-					{
-						type: "warning",
-						autoHideTime: 15_000,
-						content:
-					`An error occurred while preloading.
+				JqueryUtil.doToast({
+					type: "warning",
+					autoHideTime: 15_000,
+					content: `An error occurred while preloading.
 					You may have gone offline, or the server may not be responding.
 					Please try again. ${VeCt.STR_SEE_CONSOLE}`,
-					},
-				);
+				});
 			}, 2_000);
 			break;
 	}
@@ -178,10 +175,10 @@ const updateDownloadBar = (msg) => {
  */
 const finishedDownload = () => {
 	removeDownloadBar();
-	JqueryUtil.doToast({type: "success", content: "Preload complete! The preloaded content is now ready for offline use."});
+	JqueryUtil.doToast({ type: "success", content: "Preload complete! The preloaded content is now ready for offline use." });
 };
 
-wb.addEventListener("message", event => {
+wb.addEventListener("message", (event) => {
 	const msg = event.data;
 	switch (msg.type) {
 		case "FETCH_ERROR":

@@ -50,10 +50,7 @@ any file request:
  * @param {() => Promise<any>} asyncFn the function to pass to waitUntil
  * @returns {Promise<any>}
  */
-function waitUntil (
-	event,
-	asyncFn,
-) {
+function waitUntil(event, asyncFn) {
 	const returnPromise = asyncFn();
 	event.waitUntil(returnPromise);
 	return returnPromise;
@@ -61,13 +58,13 @@ function waitUntil (
 
 const offlineAlert = async (url) => {
 	console.log(`Fetch failure. We are offline, and cannot access URL "${url}"`);
-	const clients = await self.clients.matchAll({type: "window"});
+	const clients = await self.clients.matchAll({ type: "window" });
 	let payload = "generic";
 	if (/\.(?:png|gif|webm|jpg|webp|jpeg|svg)$/m.test(url)) payload = "image";
 	else if (/\.json$/m.test(url)) payload = "json";
 
 	for (const client of clients) {
-		client.postMessage({type: "FETCH_ERROR", payload});
+		client.postMessage({ type: "FETCH_ERROR", payload });
 	}
 };
 
@@ -83,7 +80,7 @@ const resetAll = async () => {
 		await caches.delete(cacheName);
 
 		// See: https://github.com/GoogleChrome/workbox/issues/2234
-		const cacheExpiration = new CacheExpiration(cacheName, {maxEntries: 1});
+		const cacheExpiration = new CacheExpiration(cacheName, { maxEntries: 1 });
 		await cacheExpiration.delete();
 
 		console.log(`deleted cache "${cacheName}"`);
@@ -92,7 +89,7 @@ const resetAll = async () => {
 	await self.registration.unregister();
 
 	const clients = await self.clients.matchAll();
-	clients.forEach(client => client.navigate(client.url));
+	clients.forEach((client) => client.navigate(client.url));
 };
 
 addEventListener("message", (event) => {
@@ -116,10 +113,10 @@ precacheAndRoute(self.__WB_PRECACHE_MANIFEST);
 class RevisionCacheFirst extends Strategy {
 	// explicitly set `credentials` option as a workaround to enable basic auth in third-party installs
 	// See: 5ET-BUG-115
-	static _FETCH_OPTIONS_VET = {credentials: "same-origin"};
+	static _FETCH_OPTIONS_VET = { credentials: "same-origin" };
 
 	cacheRoutesAbortController = null;
-	constructor () {
+	constructor() {
 		super({ cacheName: "runtime-revision" });
 
 		// bind this for activate method
@@ -144,11 +141,11 @@ class RevisionCacheFirst extends Strategy {
 	}
 
 	/**
-   * @param {Request} request
-   * @param {StrategyHandler} handler
-   * @returns {Promise<Response | undefined>}
-   */
-	async _handle (request, handler) {
+	 * @param {Request} request
+	 * @param {StrategyHandler} handler
+	 * @returns {Promise<Response | undefined>}
+	 */
+	async _handle(request, handler) {
 		/** the full url of the request, https://example.com/slug/ */
 		const url = request.url;
 		/**
@@ -156,7 +153,7 @@ class RevisionCacheFirst extends Strategy {
 		 *
 		 * this way, we can invalidate the cache entry if the revision is wrong
 		 */
-		const cacheKey = createCacheKey({url, revision: runtimeManifest.get(url)}).cacheKey;
+		const cacheKey = createCacheKey({ url, revision: runtimeManifest.get(url) }).cacheKey;
 
 		console.log(`Trying to resolve URL "${url}" with key "${cacheKey}"`);
 
@@ -188,16 +185,16 @@ class RevisionCacheFirst extends Strategy {
 	 * @param {ExtendableEvent} event
 	 * @returns {Promise}
 	 */
-	activate (event) {
+	activate(event) {
 		return waitUntil(event, async () => {
 			const cache = await caches.open(this.cacheName);
 
-			const currentCacheKeys = (await cache.keys()).map(request => request.url);
-			const validCacheKeys = new Set(Array.from(runtimeManifest).map(([url, revision]) => createCacheKey({url, revision}).cacheKey));
+			const currentCacheKeys = (await cache.keys()).map((request) => request.url);
+			const validCacheKeys = new Set(Array.from(runtimeManifest).map(([url, revision]) => createCacheKey({ url, revision }).cacheKey));
 
 			// queue up all the deletions
 			await Promise.allSettled(
-				currentCacheKeys.map(async key => {
+				currentCacheKeys.map(async (key) => {
 					// this will happen if a revision is updated or a file is no longer included in the glob
 					if (!validCacheKeys.has(key)) {
 						// we can save space by deleting this element--it wouldn't be served because the revision is wrong
@@ -225,11 +222,11 @@ class RevisionCacheFirst extends Strategy {
 	 * @param {{payload: {routeRegex: RegExp}}} data the data sent with the request
 	 * @param {AbortSignal} signal signal to abort the operation
 	 */
-	async cacheRoutes (data, signal) {
+	async cacheRoutes(data, signal) {
 		const cache = await caches.open(this.cacheName);
 
-		const currentCacheKeys = new Set((await cache.keys()).map(request => request.url));
-		const validCacheKeys = Array.from(runtimeManifest).map(([url, revision]) => createCacheKey({url, revision}).cacheKey);
+		const currentCacheKeys = new Set((await cache.keys()).map((request) => request.url));
+		const validCacheKeys = Array.from(runtimeManifest).map(([url, revision]) => createCacheKey({ url, revision }).cacheKey);
 
 		const routeRegex = data.payload.routeRegex;
 		/**
@@ -245,9 +242,9 @@ class RevisionCacheFirst extends Strategy {
 		 * It can take up to 1 ms, so it can be called without an await to let it resolve in downtime.
 		 */
 		const postProgress = async () => {
-			const clients = await self.clients.matchAll({type: "window"});
+			const clients = await self.clients.matchAll({ type: "window" });
 			for (const client of clients) {
-				client.postMessage({type: "CACHE_ROUTES_PROGRESS", payload: {fetched, fetchTotal}});
+				client.postMessage({ type: "CACHE_ROUTES_PROGRESS", payload: { fetched, fetchTotal } });
 			}
 		};
 
@@ -288,10 +285,10 @@ class RevisionCacheFirst extends Strategy {
 		const fetchResults = await Promise.allSettled(fetchPromises);
 
 		// determine if any functions died and report them
-		const errorResults = fetchResults.filter(fetchResult => fetchResult.status === "rejected");
+		const errorResults = fetchResults.filter((fetchResult) => fetchResult.status === "rejected");
 		if (errorResults.length > 0) {
-			const clients = await self.clients.matchAll({type: "window"});
-			for (const client of clients) client.postMessage({type: "CACHE_ROUTES_ERROR", payload: { errors: errorResults }});
+			const clients = await self.clients.matchAll({ type: "window" });
+			for (const client of clients) client.postMessage({ type: "CACHE_ROUTES_ERROR", payload: { errors: errorResults } });
 		}
 	}
 }
@@ -301,23 +298,11 @@ class RevisionCacheFirst extends Strategy {
  *
  * __WB_RUNTIME_MANIFEST is injected as [route, revision] array, mapped into [url, revision], and constructed as map
  */
-const runtimeManifest = new Map(self.__WB_RUNTIME_MANIFEST.map(
-	([
-		route,
-		revision,
-	]) =>
-		[
-			`${self.location.origin}/${route}`,
-			revision,
-		],
-));
+const runtimeManifest = new Map(self.__WB_RUNTIME_MANIFEST.map(([route, revision]) => [`${self.location.origin}/${route}`, revision]));
 
 const revisionCacheFirst = new RevisionCacheFirst();
 
-registerRoute(
-	({request}) => runtimeManifest.has(request.url),
-	revisionCacheFirst,
-);
+registerRoute(({ request }) => runtimeManifest.has(request.url), revisionCacheFirst);
 
 // purge the old entries from cache
 addEventListener("activate", revisionCacheFirst.activate);
@@ -326,35 +311,43 @@ addEventListener("activate", revisionCacheFirst.activate);
 this tells workbox to cache fonts, and serve them cache first after first load
 this works on the assumption that fonts are static assets and won't change
  */
-registerRoute(({request}) => request.destination === "font", new CacheFirst({
-	cacheName: "font-cache",
-}));
+registerRoute(
+	({ request }) => request.destination === "font",
+	new CacheFirst({
+		cacheName: "font-cache",
+	}),
+);
 
 /*
 the base case route - for images that have fallen through every other route
 this is external images, for homebrew as an example
 */
-registerRoute(({request}) => request.destination === "image", new NetworkFirst({
-	cacheName: "external-image-cache",
-	plugins: [
-		// this is a safeguard against an utterly massive cache - these numbers may need tweaking
-		new ExpirationPlugin({maxAgeSeconds: 7 /* days */ * 24 * 60 * 60, maxEntries: 100, purgeOnQuotaError: true}),
-	],
-}));
+registerRoute(
+	({ request }) => request.destination === "image",
+	new NetworkFirst({
+		cacheName: "external-image-cache",
+		plugins: [
+			// this is a safeguard against an utterly massive cache - these numbers may need tweaking
+			new ExpirationPlugin({ maxAgeSeconds: 7 /* days */ * 24 * 60 * 60, maxEntries: 100, purgeOnQuotaError: true }),
+		],
+	}),
+);
 
 addEventListener("install", () => {
 	self.skipWaiting();
 });
 
 // this only serves to delete cache from old versions of page - pre sw rework
-addEventListener("activate", event => {
-	event.waitUntil((async () => {
-		const cacheNames = await caches.keys();
-		for (const cacheName of cacheNames) {
-			if (!/\d+\.\d+\.\d+/.test(cacheName)) continue;
+addEventListener("activate", (event) => {
+	event.waitUntil(
+		(async () => {
+			const cacheNames = await caches.keys();
+			for (const cacheName of cacheNames) {
+				if (!/\d+\.\d+\.\d+/.test(cacheName)) continue;
 
-			await caches.delete(cacheName);
-			console.log(`Deleted legacy cache "${cacheName}"`);
-		}
-	})());
+				await caches.delete(cacheName);
+				console.log(`Deleted legacy cache "${cacheName}"`);
+			}
+		})(),
+	);
 });
