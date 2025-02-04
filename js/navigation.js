@@ -45,10 +45,10 @@ class NavBar {
 
 		this._addElement_li(null, "index.html", "Ana Sayfa", {isRoot: true});
 
-		this._addElement_li(null, "classes.html", "Sınıflar");
-		this._addElement_li(null, "backgrounds.html", "Geçmişler");
-		this._addElement_li(null, "feats.html", "Hünerler");
-		this._addElement_li(null, "races.html", "Irklar");
+		this._addElement_li(null, "classes.html", "Sınıflar", {isRoot: true});
+		this._addElement_li(null, "backgrounds.html", "Geçmişler", {isRoot: true});
+		this._addElement_li(null, "feats.html", "Hünerler", {isRoot: true});
+		this._addElement_li(null, "races.html", "Irklar", {isRoot: true});
 
 		this._addElement_dropdown(null, NavBar._CAT_REFERENCES);
 		this._addElement_li(NavBar._CAT_REFERENCES, "actions.html", "Aksiyonlar");
