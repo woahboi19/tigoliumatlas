@@ -56,7 +56,7 @@ class NavBar {
 		this._addElement_li(NavBar._CAT_REFERENCES, "deities.html", "İlahlar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "items.html", "Eşyalar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "languages.html", "Diller");
-		this._addElement_li(NavBar._CAT_REFERENCES, "rewards.html", "Doğaüstü Güç & Hediyeler");
+		this._addElement_li(NavBar._CAT_REFERENCES, "bestiary.html", "Yaratıklar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "spells.html", "Büyüler");
 		this._addElement_li(NavBar._CAT_REFERENCES, "vehicles.html", "Araçlar");
 
