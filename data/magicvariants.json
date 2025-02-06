@@ -1397,31 +1397,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Demon Skin",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"type": "HA"
-				}
-			],
-			"inherits": {
-				"namePrefix": "Demon Skin ",
-				"source": "DitLCoT",
-				"page": 14,
-				"resist": [
-					"poison"
-				],
-				"rarity": "rare",
-				"reqAttune": true,
-				"stealth": false,
-				"entries": [
-					"This magic armor appears as a pot of bubbling black ichor. When you attune to it, the ichor adheres to and contours to your skin, and the pot disappears. The armor can be worn under normal clothes, and it doesn't impede bodily functions. Once you put it on, it can't be removed unless you choose to do so or you die, at which point the pot reappears and the ichor flows back into it.",
-					"While wearing the armor, you have resistance to poison damage. The armor also doesn't impose disadvantage on Dexterity ({@skill Stealth}) checks."
-				]
-			},
-			"hasFluffImages": true
-		},
-		{
 			"name": "Demonbone Polearm",
 			"type": "GV|DMG",
 			"requires": [
@@ -2457,34 +2432,6 @@
 			}
 		},
 		{
-			"name": "Mithral +1 Armor",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"type": "HA"
-				},
-				{
-					"type": "MA"
-				}
-			],
-			"excludes": {
-				"name": "Hide Armor"
-			},
-			"inherits": {
-				"namePrefix": "Mithral +1 ",
-				"source": "AI",
-				"page": 156,
-				"rarity": "rare",
-				"strength": null,
-				"bonusAc": "+1",
-				"stealth": false,
-				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't."
-				]
-			}
-		},
-		{
 			"name": "Mithral Armor",
 			"type": "GV|DMG",
 			"requires": [
@@ -2536,39 +2483,6 @@
 				"rarity": "rare",
 				"entries": [
 					"This suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw."
-				]
-			}
-		},
-		{
-			"name": "Molten Bronze Skin",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"name": "Half Plate Armor",
-					"source": "PHB"
-				},
-				{
-					"name": "Plate Armor",
-					"source": "PHB"
-				},
-				{
-					"name": "Breastplate",
-					"source": "PHB"
-				}
-			],
-			"inherits": {
-				"namePrefix": "Molten Bronze Skin ",
-				"source": "MOT",
-				"page": 197,
-				"resist": [
-					"fire"
-				],
-				"rarity": "rare",
-				"reqAttune": true,
-				"stealth": false,
-				"entries": [
-					"This magical armor appears as a jug of molten bronze. When you attune to it, the bronze adheres and contours to your skin. The armor can be worn under normal clothes, but it doesn't impede bodily functions. Once you put it on, it can't be removed unless you choose to do so.",
-					"While wearing the armor, you have resistance to fire damage. The armor also doesn't impose disadvantage on Dexterity ({@skill Stealth}) checks."
 				]
 			}
 		},
@@ -3546,34 +3460,6 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
-			}
-		},
-		{
-			"name": "Vicious +1 Weapon",
-			"type": "GV|DMG",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"entries": [
-				"When you roll a 20 with this magic weapon, the target takes an extra 7 damage of the weapon's type.",
-				"{@note Note: According to the SRD, it is an extra {@damage 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
-			],
-			"inherits": {
-				"namePrefix": "Vicious +1 ",
-				"source": "AI",
-				"page": 149,
-				"rarity": "unknown (magic)",
-				"bonusWeapon": "+1",
-				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon.",
-					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
-					"{@note Note: According to the SRD, it is an extra {@damage 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
 				]
 			}
 		},
