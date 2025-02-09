@@ -530,7 +530,7 @@
 				"nameSuffix": " Armblade",
 				"source": "ERLW",
 				"page": 276,
-				"rarity": "common",
+				"rarity": "bakır",
 				"reqAttune": "by a warforged",
 				"reqAttuneTags": [
 					{
@@ -679,7 +679,7 @@
 				"source": "XGE",
 				"page": 136,
 				"tier": "minor",
-				"rarity": "common",
+				"rarity": "bakır",
 				"entries": [
 					"This armor never gets dirty."
 				]
@@ -1223,7 +1223,7 @@
 				"source": "XGE",
 				"page": 136,
 				"tier": "minor",
-				"rarity": "common",
+				"rarity": "demir",
 				"entries": [
 					"You can doff this armor as an action."
 				]
@@ -2017,7 +2017,7 @@
 				"namePrefix": "Fernian Ash ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2046,7 +2046,7 @@
 				"namePrefix": "Irian Rosewood ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2075,7 +2075,7 @@
 				"namePrefix": "Kythrian Manchineel ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2104,7 +2104,7 @@
 				"namePrefix": "Lamannian Oak ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2133,7 +2133,7 @@
 				"namePrefix": "Mabaran Ebony ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2162,7 +2162,7 @@
 				"namePrefix": "Risian Pine ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2191,7 +2191,7 @@
 				"namePrefix": "Shavarran Birch ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2220,7 +2220,7 @@
 				"namePrefix": "Xorian Wenge ",
 				"source": "ERLW",
 				"page": 277,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"bonusSpellDamage": "+1",
@@ -2499,7 +2499,7 @@
 				"source": "XGE",
 				"page": 138,
 				"tier": "minor",
-				"rarity": "common",
+				"rarity": "demir",
 				"entries": [
 					"In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet."
 				]
@@ -2589,7 +2589,7 @@
 				"namePrefix": "Fernian Basalt ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2618,7 +2618,7 @@
 				"namePrefix": "Irian Quartz ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2647,7 +2647,7 @@
 				"namePrefix": "Kythrian Skarn ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2676,7 +2676,7 @@
 				"namePrefix": "Lamannian Flint ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2705,7 +2705,7 @@
 				"namePrefix": "Mabaran Obsidian ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2734,7 +2734,7 @@
 				"namePrefix": "Risian Shale ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2763,7 +2763,7 @@
 				"namePrefix": "Shavarran Chert ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -2792,7 +2792,7 @@
 				"namePrefix": "Xorian Marble ",
 				"source": "ERLW",
 				"page": 278,
-				"rarity": "common",
+				"rarity": "demir",
 				"reqAttune": true,
 				"wondrous": true,
 				"entries": [
@@ -3120,7 +3120,7 @@
 				"namePrefix": "Slumbering Dragon's Wrath ",
 				"source": "FTD",
 				"page": 25,
-				"rarity": "uncommon",
+				"rarity": "demir",
 				"reqAttune": true,
 				"entries": [
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
@@ -3141,7 +3141,7 @@
 				"source": "XGE",
 				"page": 139,
 				"tier": "minor",
-				"rarity": "common",
+				"rarity": "bakır",
 				"entries": [
 					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
 				]

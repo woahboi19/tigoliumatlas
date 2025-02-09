@@ -2741,7 +2741,7 @@
             "name": "Barrier Tattoo (Small)",
             "source": "TCE",
             "page": 122,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -3979,7 +3979,7 @@
             "page": 66,
             "baseItem": "shield|PHB",
             "type": "S",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "weight": 6,
             "ac": 2,
@@ -4011,7 +4011,7 @@
             "source": "XGE",
             "page": 136,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "Only humanoids can wear these boots. While wearing the boots, you can choose to have them leave tracks like those of another kind of humanoid of your size."
@@ -4072,7 +4072,7 @@
             "srd": true,
             "basicRules": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "modifySpeed": {
@@ -4520,7 +4520,7 @@
             "source": "XGE",
             "page": 136,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle."
@@ -4812,7 +4812,7 @@
             "source": "XGE",
             "page": 136,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -4856,7 +4856,7 @@
             "name": "Chest of Preserving",
             "source": "WDMM",
             "page": 139,
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 25,
             "entries": [
@@ -4927,7 +4927,7 @@
             "source": "WDMM",
             "page": 30,
             "type": "OTH",
-            "rarity": "uncommon",
+            "rarity": "bakır",
             "reqAttune": "by a humanoid",
             "reqAttuneTags": [
                 {
@@ -5011,7 +5011,7 @@
             "name": "Cleansing Stone",
             "source": "ERLW",
             "page": 276,
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.",
@@ -5060,7 +5060,7 @@
             "source": "XGE",
             "page": 136,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "While wearing this cloak, you can use a bonus action to make it billow dramatically."
@@ -5126,7 +5126,7 @@
             "source": "XGE",
             "page": 136,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties."
@@ -5207,7 +5207,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
@@ -5237,7 +5237,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired in this way."
@@ -5316,7 +5316,7 @@
             "name": "Common Glamerweave",
             "source": "ERLW",
             "page": 277,
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth."
@@ -5382,7 +5382,7 @@
             "name": "Cracked Driftglobe",
             "source": "CM",
             "page": 110,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 1,
             "entries": [
@@ -5966,7 +5966,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": "by a warlock",
             "reqAttuneTags": [
                 {
@@ -6126,7 +6126,7 @@
             "page": 161,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing {@dice 1d20 - 1} cards.",
@@ -7623,7 +7623,7 @@
             "name": "Deck of Miscellany",
             "source": "BMT",
             "page": 41,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This wooden box contains a set of thirty-two parchment cards.",
@@ -9103,7 +9103,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "This fearsome steel helm makes your eyes glow red while you wear it."
@@ -9439,7 +9439,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
@@ -9449,7 +9449,7 @@
             "name": "Earworm",
             "source": "ERLW",
             "page": 277,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "recharge": "dawn",
@@ -10010,7 +10010,7 @@
             "name": "Emerald Pen",
             "source": "FTD",
             "page": 23,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast {@spell illusory script} at will, requiring no material components."
@@ -10024,7 +10024,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age."
@@ -10040,7 +10040,7 @@
                 }
             ],
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye."
@@ -10132,7 +10132,7 @@
             "name": "Everbright Lantern",
             "source": "ERLW",
             "page": 277,
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a {@spell continual flame} spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light."
@@ -10144,7 +10144,7 @@
             "page": 168,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 1,
             "entries": [
@@ -10264,7 +10264,7 @@
             "page": 168,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "recharge": "dawn",
@@ -10290,7 +10290,7 @@
             "page": 168,
             "srd": true,
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ({@skill Investigation}) checks that rely on sight while searching an area or studying an object within that range."
@@ -10526,7 +10526,7 @@
             "name": "Feather Token",
             "source": "ERLW",
             "page": 277,
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This small metal disk is inscribed with the image of a feather. When you fall at least 20 feet while the token is on your person, you descend 60 feet per round and take no damage from falling. The token's magic is expended after you land, whereupon the disk becomes nonmagical."
@@ -10536,7 +10536,7 @@
             "name": "Feywild Shard",
             "source": "TCE",
             "page": 127,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -11825,7 +11825,7 @@
             "page": 172,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -12573,7 +12573,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "recharge": "dawn",
             "rechargeAmount": 3,
@@ -12587,7 +12587,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": "by a wizard",
             "reqAttuneTags": [
                 {
@@ -13071,7 +13071,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "recharge": "dawn",
             "rechargeAmount": "{@dice 1d6 + 4}",
@@ -13165,7 +13165,7 @@
             "source": "XGE",
             "page": 137,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "recharge": "dawn",
             "rechargeAmount": "{@dice 1d4}",
@@ -13549,7 +13549,7 @@
             "name": "Illuminator's Tattoo",
             "source": "TCE",
             "page": 129,
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -13706,7 +13706,7 @@
             "page": 137,
             "type": "INS",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -13719,7 +13719,7 @@
             "page": 138,
             "type": "INS",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": true,
             "wondrous": true,
             "recharge": "dawn",
@@ -14779,7 +14779,7 @@
             "name": "Keycharm",
             "source": "ERLW",
             "page": 277,
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": "by a creature with the Mark of Warding",
             "reqAttuneTags": [
                 {
@@ -15261,7 +15261,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage."
@@ -15957,7 +15957,7 @@
             "name": "Masquerade Tattoo",
             "source": "TCE",
             "page": 131,
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -16044,7 +16044,7 @@
             "page": 181,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "weight": 1,
@@ -16156,7 +16156,7 @@
             "name": "Mind Crystal (Careful)",
             "source": "PaBTSO",
             "page": 218,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This gemstone contains a crystallized bit of spellcasting magic.",
@@ -16175,7 +16175,7 @@
             "name": "Mind Crystal (Distant)",
             "source": "PaBTSO",
             "page": 218,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This gemstone contains a crystallized bit of spellcasting magic.",
@@ -16194,7 +16194,7 @@
             "name": "Mind Crystal (Empowered)",
             "source": "PaBTSO",
             "page": 218,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This gemstone contains a crystallized bit of spellcasting magic.",
@@ -16213,7 +16213,7 @@
             "name": "Mind Crystal (Extended)",
             "source": "PaBTSO",
             "page": 218,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This gemstone contains a crystallized bit of spellcasting magic.",
@@ -16270,7 +16270,7 @@
             "name": "Mind Crystal (Subtle)",
             "source": "PaBTSO",
             "page": 218,
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This gemstone contains a crystallized bit of spellcasting magic.",
@@ -16638,7 +16638,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "A question mark is worked into the head of this key. The key has a {@chance 5} chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears."
@@ -16692,7 +16692,7 @@
             "page": 182,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "weight": 1,
@@ -17178,7 +17178,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 3,
             "entries": [
@@ -17255,7 +17255,7 @@
             "name": "Orb of Gonging",
             "source": "WDMM",
             "page": 174,
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 5,
             "entries": [
@@ -17369,7 +17369,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "weight": 3,
             "entries": [
@@ -17725,7 +17725,7 @@
                     "page": 94
                 }
             ],
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
@@ -17874,7 +17874,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This tiny vial contains magic perfume, enough for one use. You can use an action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have advantage on all Charisma checks directed at humanoids of challenge rating 1 or lower. Those subjected to the perfume's effect are not aware that they've been influenced by magic."
@@ -17958,7 +17958,7 @@
             "srd": true,
             "type": "P",
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "entries": [
                 "The next time you see a creature within 10 minutes after drinking this philter, you become {@condition charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {@condition charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
             ],
@@ -17973,7 +17973,7 @@
             "name": "Pipe of Remembrance",
             "source": "GoS",
             "page": 229,
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "This long, delicate wooden pipe features a bowl made from smooth river stone. When the pipe is lit, smoke exhaled from it does not dissipate, instead lingering around the bearer. After 10 minutes, the smoke forms moving shapes that reenact the bearer's most impressive and heroic achievements for 5 minutes. When this realistic performance is complete, the smoke dissipates. The pipe can't be used this way again until the next dawn."
@@ -17984,7 +17984,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke."
@@ -18022,7 +18022,7 @@
             "srd": true,
             "type": "INS",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "weight": 2,
@@ -18227,7 +18227,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal 10-foot pole."
@@ -18238,7 +18238,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
@@ -18275,7 +18275,7 @@
                 }
             ],
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an {@creature awakened shrub} at the end of that time. When the shrub awakens, its roots break the pot, destroying it.",
@@ -19229,7 +19229,7 @@
             "name": "Pressure Capsule",
             "source": "GoS",
             "page": 229,
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This small capsule is made of beeswax blended with sand and a variety of enchanted water plants. A creature who consumes a pressure capsule ignores the effects of swimming at depths greater than 100 feet (see \"{@book Unusual Environments|dmg|5|Unusual Environments}\" in chapter 5 of the Dungeon Master's Guide)."
@@ -19285,7 +19285,7 @@
             "name": "Propeller Helm",
             "source": "WDMM",
             "page": 251,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": "by a small humanoid",
             "reqAttuneTags": [
                 {
@@ -19311,7 +19311,7 @@
                     "source": "EGW"
                 }
             ],
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "This item replaces a lost limb-a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die."
@@ -19363,7 +19363,7 @@
             "name": "Psi Crystal",
             "source": "IDRotF",
             "page": 315,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": "by a creature with an intelligence score of 3 or higher",
             "reqAttuneTags": [
                 {
@@ -19594,7 +19594,7 @@
             "page": 189,
             "srd": "Efficient Quiver",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 2,
             "entries": [
@@ -20138,7 +20138,7 @@
             "srd": true,
             "type": "RG|DMG",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "entries": [
                 "While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
@@ -20179,7 +20179,7 @@
             "srd": true,
             "type": "RG|DMG",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "entries": [
                 "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
@@ -21168,7 +21168,7 @@
             "page": 197,
             "srd": true,
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "weight": 3,
             "entries": [
@@ -21207,7 +21207,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "You can cut this 50-foot coil of hempen rope into any number of smaller pieces, and then use an action to speak a command word and cause the pieces to knit back together. The pieces must be in contact with each other and not otherwise in use. A rope of mending is forever shortened if a section of it is lost or destroyed."
@@ -21251,7 +21251,7 @@
             "source": "XGE",
             "page": 138,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": "by a spellcaster",
             "reqAttuneTags": [
                 {
@@ -21334,7 +21334,7 @@
             "source": "DMG",
             "page": 199,
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage."
@@ -21710,7 +21710,7 @@
             "name": "Scribe's Pen",
             "source": "ERLW",
             "page": 278,
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": "by a creature with the Mark of Scribing",
             "reqAttuneTags": [
                 {
@@ -21947,7 +21947,7 @@
             "name": "Sekolahian Worshiping Statuette",
             "source": "GoS",
             "page": 229,
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "Skillfully carved from sandstone, this 1-foot-tall statuette depicts a shark twisting through the water with its mouth open. If any Tiny sea-dwelling animal is within 1 inch of the statuette's mouth, the shark flashes to life and deals 1 piercing damage to it. The shark can deal damage in this way no more than once per hour."
@@ -22216,7 +22216,7 @@
             "page": 139,
             "type": "S",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 6,
             "ac": 2,
             "entries": [
@@ -22365,7 +22365,7 @@
             "page": 67,
             "baseItem": "shield|PHB",
             "type": "S",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "curse": true,
             "weight": 6,
@@ -22436,7 +22436,7 @@
             "name": "Shiftweave",
             "source": "ERLW",
             "page": 279,
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing the clothing, you can speak its command word as a bonus action to transform your outfit into your choice of one of the other designs contained within it. Regardless of its appearance, the outfit can't be anything but clothing. Although it can duplicate the look of other magical clothing, it doesn't gain their magical properties."
@@ -22657,7 +22657,7 @@
             "name": "Slumbering Dragon Vessel",
             "source": "FTD",
             "page": 27,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -22669,7 +22669,7 @@
             "name": "Slumbering Dragon-Touched Focus",
             "source": "FTD",
             "page": 26,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": "by a spellcaster",
             "reqAttuneTags": [
                 {
@@ -22697,7 +22697,7 @@
             "name": "Slumbering Scaled Ornament",
             "source": "FTD",
             "page": 27,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -23020,7 +23020,7 @@
                     "page": 95
                 }
             ],
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": "optional",
             "wondrous": true,
             "entries": [
@@ -23042,7 +23042,7 @@
                     "page": 95
                 }
             ],
-            "rarity": "uncommon",
+            "rarity": "demir",
             "reqAttune": "optional",
             "wondrous": true,
             "entries": [
@@ -23406,7 +23406,7 @@
             "name": "Spellshard",
             "source": "ERLW",
             "page": 279,
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This polished Eberron dragonshard fits in the hand and stores information similar to a book. The shard can hold the equivalent of one book that's no more than 320 pages long. A shard can be created blank or already filled with information. When the shard is created, the creator can set a passphrase that must be spoken to access the information stored within.",
@@ -23659,7 +23659,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 4,
             "weaponCategory": "simple",
             "property": [
@@ -23678,7 +23678,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 4,
             "weaponCategory": "simple",
             "property": [
@@ -23887,7 +23887,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 4,
             "weaponCategory": "simple",
             "property": [
@@ -25855,7 +25855,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -25906,7 +25906,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison."
@@ -26301,7 +26301,7 @@
             "name": "Thermal Cube",
             "source": "IDRotF",
             "page": 316,
-            "rarity": "common",
+            "rarity": "gümüş",
             "wondrous": true,
             "entries": [
                 "This 3-inch cube of solid brimstone generates enough dry heat to keep the temperature within 15 feet of it at 95 degrees Fahrenheit (35 degrees Celsius)."
@@ -26705,7 +26705,7 @@
             "name": "Uncommon Glamerweave",
             "source": "ERLW",
             "page": 277,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "Glamerweave is clothing imbued with harmless illusory magic. While wearing these clothes, you can use a bonus action to create a moving illusory pattern within the cloth. Alternatively, you can have the pattern rise from the cloth. For example, a glamerweave gown might be wreathed in harmless, illusory flames, while a glamerweave hat might have illusory butterflies fluttering around it.",
@@ -26770,7 +26770,7 @@
             "source": "XGE",
             "page": 139,
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "wondrous": true,
             "entries": [
                 "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
@@ -26986,7 +26986,7 @@
             "page": 140,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": 3,
@@ -27329,7 +27329,7 @@
             "page": 140,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": "{@dice 1d6 + 1}",
@@ -27345,7 +27345,7 @@
             "page": 140,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": 3,
@@ -27362,7 +27362,7 @@
             "srd": true,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": "{@dice 1d3}",
@@ -27384,7 +27384,7 @@
             "page": 140,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "common",
+            "rarity": "bakır",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": 3,
@@ -27616,7 +27616,7 @@
             "name": "Wand Sheath",
             "source": "ERLW",
             "page": 279,
-            "rarity": "common",
+            "rarity": "bakır",
             "reqAttune": "by a warforged",
             "reqAttuneTags": [
                 {
@@ -27821,7 +27821,7 @@
             "name": "Wheel of Wind and Water",
             "source": "ERLW",
             "page": 280,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "When mounted at the helm of an elemental galleon or airship, this wheel allows a creature that possesses the Mark of Storm to telepathically control the elemental bound inside the vessel.",
@@ -27941,7 +27941,7 @@
             "page": 213,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "While holding this fan, you can use an action to cast the {@spell gust of wind} spell (save {@dc 13}) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative {@chance 20} chance of not working and tearing into useless, nonmagical tatters."
@@ -29573,7 +29573,7 @@
             "page": 277,
             "type": "SCF",
             "scfType": "arcane",
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -29964,7 +29964,7 @@
             "page": 278,
             "type": "SCF",
             "scfType": "arcane",
-            "rarity": "common",
+            "rarity": "demir",
             "reqAttune": true,
             "wondrous": true,
             "weight": 3,

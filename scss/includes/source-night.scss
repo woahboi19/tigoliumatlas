@@ -111,6 +111,18 @@
 
 .ve-night-mode .itm__ {
 	&rarity- {
+		&bakır {
+			color: #a97142;
+		}
+
+		&demir {
+			color: #7a7f80;
+		}
+
+		&gümüş {
+			color: #dcc6cc;
+		}
+
 		&common {
 			color: color.adjust(vars-night.$rgb-font--night, $lightness: -15%);
 		}

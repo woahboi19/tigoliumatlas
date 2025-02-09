@@ -1031,6 +1031,9 @@ Parser.ITM_TYP__VEHICLE_LAND = "VEH";
 Parser.ITM_TYP__WAND = "WD|DMG";
 
 Parser.ITM_RARITY_TO_SHORT = {
+	"bakır": "Bakır",
+	"demir": "Demir",
+	"gümüş": "Gümüş",
 	"common": "Com.",
 	"uncommon": "Unc.",
 	"rare": "Rare",
@@ -2352,7 +2355,7 @@ Parser.weightToFull = function (lbs, isSmallUnit) {
 	].filter(Boolean).join(", ");
 };
 
-Parser.RARITIES = ["common", "uncommon", "rare", "very rare", "legendary", "artifact"];
+Parser.RARITIES = ["bakır", "demir", "gümüş", "common", "uncommon", "rare", "very rare", "legendary", "artifact"];
 Parser.ITEM_RARITIES = ["none", ...Parser.RARITIES, "varies", "unknown", "unknown (magic)", "other"];
 
 Parser.CAT_ID_CREATURE = 1;
