@@ -568,6 +568,26 @@
 
 .itm__ {
 	&rarity- {
+		&bakır {
+			color: #a97142;
+		}
+
+		&demir {
+			color: #7a7f80;
+		}
+
+		&gümüş {
+			color: #dcc6cc;
+		}
+
+		&altın {
+			color: #eff15a;
+		}
+
+		&platin {
+			color: #94ffdb;
+		}
+		
 		&common {
 			color: color.adjust(vars.$rgb-font, $lightness: 15%);
 		}

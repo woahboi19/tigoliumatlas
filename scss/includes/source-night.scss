@@ -123,6 +123,14 @@
 			color: #dcc6cc;
 		}
 
+		&altın {
+			color: #eff15a;
+		}
+
+		&platin {
+			color: #94ffdb;
+		}
+
 		&common {
 			color: color.adjust(vars-night.$rgb-font--night, $lightness: -15%);
 		}

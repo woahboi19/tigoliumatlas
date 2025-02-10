@@ -18,7 +18,7 @@
 				"page": 150,
 				"srd": true,
 				"tier": "minor",
-				"rarity": "uncommon",
+				"rarity": "demir",
 				"bonusWeapon": "+1",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
@@ -93,7 +93,7 @@
 				"srd": true,
 				"basicRules": true,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"bonusWeapon": "+1",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
@@ -116,7 +116,7 @@
 				"source": "DMG",
 				"page": 213,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"bonusWeaponAttack": "+1",
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
@@ -453,7 +453,7 @@
 				"page": 150,
 				"srd": true,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "altın",
 				"entries": [
 					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
 				]
@@ -656,7 +656,7 @@
 				"nameSuffix": " of Fungal Spores",
 				"source": "BMT",
 				"page": 65,
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"entries": [
 					"While wearing this armor, you can take a bonus action to make the armor emit poisonous spores, which fill a 10-foot-radius sphere centered on yourself. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or have the poisoned condition until the end of your next turn. Once this property is used, it can't be used again until the next dawn."
 				]
@@ -855,7 +855,7 @@
 				"nameSuffix": " of the Fallen",
 				"source": "BMT",
 				"page": 65,
-				"rarity": "uncommon",
+				"rarity": "altın",
 				"reqAttune": true,
 				"entries": [
 					"While wearing this armor, you can use it to cast either {@spell Speak with Dead} or {@spell Animate Dead}. Once the armor has cast a spell in this way, it can't cast either spell until the next dawn.",
@@ -907,7 +907,7 @@
 				"nameSuffix": " of Weightlessness",
 				"source": "BMT",
 				"page": 65,
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"reqAttune": true,
 				"recharge": "dawn",
 				"rechargeAmount": "{@dice 1d4 + 1}",
@@ -1530,7 +1530,7 @@
 				"namePrefix": "Dried Leech ",
 				"source": "BMT",
 				"page": 67,
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"entries": [
 					"This leech has been dried and imbued with a mote of animating magic. If you hit a creature with a ranged attack roll using this ammunition, the leech springs to life and sinks its teeth into the target, dealing {@damage 1d4} piercing damage at the start of each of the target's turns. If the leech deals at least 10 damage or the target dies, the leech falls off. A creature, including the target, can use its action to detach the leech. Once a leech is no longer attached to its target, the leech dies and is no longer magical."
 				]
@@ -1958,7 +1958,7 @@
 				"namePrefix": "Hellfire ",
 				"source": "BGDIA",
 				"page": 223,
-				"rarity": "uncommon",
+				"rarity": "altın",
 				"entries": [
 					"This weapon is fashioned from infernal iron and traced with veins of hellfire that shed dim light in a 5-foot-radius.",
 					"Any humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it's reborn instantly as a {@creature lemure} devil."
@@ -2379,7 +2379,7 @@
 				"source": "DMG",
 				"page": 181,
 				"tier": "minor",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"modifySpeed": {
 					"equal": {
 						"swim": "walk"
@@ -2424,7 +2424,7 @@
 				"namePrefix": "Mind Carapace ",
 				"source": "VGM",
 				"page": 81,
-				"rarity": "uncommon",
+				"rarity": "altın",
 				"reqAttune": "by a specific individual",
 				"entries": [
 					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the {@condition frightened} condition."
@@ -2451,7 +2451,7 @@
 				"page": 182,
 				"srd": true,
 				"tier": "minor",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"strength": null,
 				"stealth": false,
 				"entries": [
@@ -3563,7 +3563,7 @@
 				"source": "XGE",
 				"page": 139,
 				"tier": "minor",
-				"rarity": "common",
+				"rarity": "demir",
 				"entries": [
 					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
 				]
