@@ -68,7 +68,7 @@
 				"page": 200,
 				"srd": true,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"bonusAc": "+1",
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
@@ -3417,7 +3417,7 @@
 				"source": "DMG",
 				"page": 206,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"reqAttune": true,
 				"curse": true,
 				"bonusWeapon": "+1",
@@ -3662,7 +3662,7 @@
 				"source": "DMG",
 				"page": 213,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "altın",
 				"reqAttune": true,
 				"entries": [
 					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@status surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
@@ -3692,7 +3692,7 @@
 				"namePrefix": "Winged ",
 				"source": "BMT",
 				"page": 69,
-				"rarity": "uncommon",
+				"rarity": "gümüş",
 				"entries": [
 					"Ranged weapon attack rolls made with this ammunition ignore half and {@quickref Cover||3||three-quarters cover}. In addition, attacking at long range doesn't impose disadvantage on ranged weapon attack rolls made with this ammunition."
 				]

@@ -2380,7 +2380,7 @@
             "page": 154,
             "srd": true,
             "tier": "major",
-            "rarity": "gümüş",
+            "rarity": "altın",
             "wondrous": true,
             "weight": 0.5,
             "recharge": "dawn",
@@ -2445,7 +2445,7 @@
             "page": 154,
             "srd": true,
             "tier": "major",
-            "rarity": "gümüş",
+            "rarity": "altın",
             "wondrous": true,
             "weight": 0.5,
             "recharge": "dawn",
@@ -2510,7 +2510,7 @@
             "page": 154,
             "srd": true,
             "tier": "major",
-            "rarity": "gümüş",
+            "rarity": "altın",
             "wondrous": true,
             "weight": 0.5,
             "recharge": "dawn",
@@ -19204,7 +19204,7 @@
             "name": "Prehistoric Figurine of Wondrous Power, Pyrite Plesiosaurus",
             "source": "BGG",
             "page": 114,
-            "rarity": "uncommon",
+            "rarity": "altın",
             "wondrous": true,
             "entries": [
                 "Larger and more roughly hewn than typical figurines of wondrous power, these statuettes depict dinosaurs and related creatures from the earliest days of the world.",
@@ -22755,14 +22755,26 @@
             ]
         },
         {
-            "name": "Smokepowder",
+            "name": "Smokepowder (packet)",
             "source": "WDH",
             "page": 192,
-            "rarity": "uncommon",
+            "rarity": "demir",
             "wondrous": true,
             "entries": [
                 "Smokepowder is a magical explosive chiefly used to propel a bullet out of the barrel of a firearm. It is stored in airtight wooden kegs or tiny, waterproof leather packets. A packet contains enough smokepowder for five shots, and a keg holds enough smokepowder for five hundred shots.",
-                "If smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it: {@dice 1d6} for a packet, {@dice 9d6} for a keg. A successful {@dc 12} Dexterity saving throw halves the damage.",
+                "If smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it {@dice 1d6}. A successful {@dc 12} Dexterity saving throw halves the damage.",
+                "Casting {@spell dispel magic} on smokepowder renders it permanently inert."
+            ]
+        },
+        {
+            "name": "Smokepowder (keg)",
+            "source": "WDH",
+            "page": 192,
+            "rarity": "altın",
+            "wondrous": true,
+            "entries": [
+                "Smokepowder is a magical explosive chiefly used to propel a bullet out of the barrel of a firearm. It is stored in airtight wooden kegs or tiny, waterproof leather packets. A packet contains enough smokepowder for five shots, and a keg holds enough smokepowder for five hundred shots.",
+                "If smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it {@dice 9d6}. A successful {@dc 12} Dexterity saving throw halves the damage.",
                 "Casting {@spell dispel magic} on smokepowder renders it permanently inert."
             ]
         },
@@ -22836,7 +22848,7 @@
             "name": "Soul Coin",
             "source": "BGDIA",
             "page": 225,
-            "rarity": "uncommon",
+            "rarity": "altın",
             "wondrous": true,
             "weight": 0.333,
             "entries": [
@@ -23174,7 +23186,7 @@
             "basicRules": true,
             "type": "SC|DMG",
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "demir",
             "entries": [
                 "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
                 "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -23199,7 +23211,7 @@
             "basicRules": true,
             "type": "SC|DMG",
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "entries": [
                 "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
                 "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -23433,7 +23445,7 @@
             "name": "Spellwrought Tattoo (2nd Level)",
             "source": "TCE",
             "page": 135,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "wondrous": true,
             "tattoo": true,
             "entries": [
@@ -23448,7 +23460,7 @@
             "name": "Spellwrought Tattoo (3rd Level)",
             "source": "TCE",
             "page": 135,
-            "rarity": "uncommon",
+            "rarity": "altın",
             "wondrous": true,
             "tattoo": true,
             "entries": [
@@ -24204,7 +24216,7 @@
             "source": "DMG",
             "page": 203,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": "by a cleric, druid, or warlock",
             "reqAttuneTags": [
                 {
@@ -24353,7 +24365,7 @@
             "page": 204,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": "by a cleric, druid, or warlock",
             "reqAttuneTags": [
                 {
@@ -24862,7 +24874,7 @@
             "page": 205,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": true,
             "wondrous": true,
             "bonusSavingThrow": "+1",
@@ -24991,7 +25003,7 @@
             "source": "PotA",
             "page": 223,
             "type": "R",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "weaponCategory": "simple",
             "range": "60/120",
             "dmg1": "1d4",
@@ -26630,7 +26642,7 @@
             "baseItem": "trident|phb",
             "type": "M",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "altın",
             "reqAttune": true,
             "weight": 4,
             "weaponCategory": "martial",
@@ -26734,7 +26746,7 @@
             "page": 237,
             "baseItem": "chain shirt|phb",
             "type": "MA",
-            "rarity": "uncommon",
+            "rarity": "altın",
             "weight": 20,
             "ac": 13,
             "strength": null,
@@ -27124,7 +27136,7 @@
             "basicRules": true,
             "type": "WD|DMG",
             "tier": "minor",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "weight": 1,
             "recharge": "dawn",
             "rechargeAmount": "{@dice 1d3}",
@@ -27419,7 +27431,7 @@
             "srd": true,
             "type": "WD|DMG",
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": "by a spellcaster",
             "reqAttuneTags": [
                 {
@@ -28022,7 +28034,7 @@
             "page": 214,
             "srd": true,
             "tier": "major",
-            "rarity": "uncommon",
+            "rarity": "altın",
             "reqAttune": true,
             "wondrous": true,
             "modifySpeed": {
@@ -28068,7 +28080,7 @@
             "name": "Wingwear",
             "source": "PotA",
             "page": 223,
-            "rarity": "uncommon",
+            "rarity": "gümüş",
             "reqAttune": true,
             "wondrous": true,
             "modifySpeed": {
@@ -28749,7 +28761,7 @@
             "source": "DMG",
             "page": 154,
             "tier": "major",
-            "rarity": "gümüş",
+            "rarity": "altın",
             "wondrous": true,
             "weight": 0.5,
             "recharge": "dawn",
@@ -31142,7 +31154,7 @@
             "name": "Wraps of Unarmed Prowess",
             "source": "BMT",
             "page": 69,
-            "rarity": "uncommon",
+            "rarity": "varies",
             "wondrous": true,
             "items": [
                 "+1 Wraps of Unarmed Prowess|BMT",
