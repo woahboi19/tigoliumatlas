@@ -1433,7 +1433,7 @@
 					"type": "entries",
 					"name": "Resources",
 					"entries": [
-						"A character must spend one week and at least 25 gp gathering information on potential targets before committing the intended crime."
+						"A character must spend 50 SZP for gathering information on potential targets and committing the intended crime. (30 SZP is spent for rogue instead of 50)"
 					]
 				},
 				{
@@ -1443,8 +1443,8 @@
 						"The character must make a series of checks, with the DC for all the checks chosen by the character according to the amount of profit sought from the crime.",
 						"The chosen DC can be 10, 15, 20, or 25. Successful completion of the crime yields a number of gold pieces, as shown on the Loot Value table.",
 						"To attempt a crime, the character makes three checks: Dexterity ({@skill Stealth}), Dexterity using {@item thieves' tools|PHB}, and the player's choice of Intelligence ({@skill Investigation}), Wisdom ({@skill Perception}), or Charisma ({@skill Deception}).",
-						"If none of the checks are successful, the character is caught and jailed. The character must pay a fine equal to the profit the crime would have earned and must spend one week in jail for each 25 gp of the fine.",
-						"If only one check is successful, the heist fails but the character escapes.",
+						"If none of the checks are successful, the character is caught and executed for their crimes.",
+						"If only one check is successful, the heist fails but the character escapes. Character loses half of their spent SZP on crime.",
 						"If two checks are successful, the heist is a partial success, netting the character half the payout.",
 						"If all three checks are successful, the character earns the full value of the loot.",
 						{
@@ -1461,19 +1461,19 @@
 							"rows": [
 								[
 									"10",
-									"50 gp, robbery of a struggling merchant"
+									"x1 of maximum gp reward of current rank, robbery of a struggling merchant"
 								],
 								[
 									"15",
-									"100 gp, robbery of a prosperous merchant"
+									"x2 of maximum gp reward of current rank, robbery of a prosperous merchant"
 								],
 								[
 									"20",
-									"200 gp, robbery of a noble"
+									"x2.5 of maximum gp reward of current rank, robbery of a noble"
 								],
 								[
 									"25",
-									"1,000 gp, robbery of one of the richest figures in town"
+									"x3 of maximum gp reward of current rank, robbery of one of the richest figures in town"
 								]
 							]
 						}
@@ -1481,58 +1481,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Complications",
+					"name": "Extras",
 					"entries": [
-						"A life of crime is filled with complications. Roll on the Crime Complications table (or create a complication of your own) if the character succeeds on only one check. If the character's rival is involved in crime or law enforcement, a complication ensues if the character succeeds on only two checks.",
-						{
-							"type": "table",
-							"caption": "Crime Complications",
-							"colLabels": [
-								"d8",
-								"Complication"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"A bounty equal to your earnings is offered for information about your crime.*"
-								],
-								[
-									"2",
-									"An unknown person contacts you, threatening to reveal your crime if you don't render a service.*"
-								],
-								[
-									"3",
-									"Your victim is financially ruined by your crime."
-								],
-								[
-									"4",
-									"Someone who knows of your crime has been arrested on an unrelated matter.*"
-								],
-								[
-									"5",
-									"Your loot is a single, easily identified item that you can't fence in this region."
-								],
-								[
-									"6",
-									"You robbed someone who was under a local crime lord's protection, and who now wants revenge."
-								],
-								[
-									"7",
-									"Your victim calls in a favor from a guard, doubling the efforts to solve the case."
-								],
-								[
-									"8",
-									"Your victim asks one of your adventuring companions to solve the crime."
-								]
-							],
-							"footnotes": [
-								"*Might involve a rival"
-							]
-						}
+						"After a character makes 3 successful heists with a difficulty level of 25, they gain fame in the underworld and gain permanent advantage on deception/intimidation/persuasion checks thanks to this fame."					
 					]
 				}
 			]
@@ -1558,7 +1509,7 @@
 					"type": "entries",
 					"name": "Resources",
 					"entries": [
-						"This activity requires one workweek of effort plus a stake of at least 10 gp, to a maximum of 1,000 gp or more, as you see fit."
+						"This activity requires 30 SZP plus a stake of at least 10 gp, to a maximum of x1 of maximum gp reward of current rank (All in)."
 					]
 				},
 				{
@@ -1601,50 +1552,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Complications",
+					"name": "Extras",
 					"entries": [
-						"Gambling tends to attract unsavory individuals. The potential complications involved come from run-ins with the law and associations with various criminals tied to the activity. Every workweek spent gambling brings a {@chance 10} chance of a complication, examples of which are on the Gambling Complications table.",
-						{
-							"type": "table",
-							"caption": "Gambling Complications",
-							"colLabels": [
-								"d6",
-								"Complication"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"You are accused of cheating. You decide whether you actually did cheat or were framed.*"
-								],
-								[
-									"2",
-									"The town guards raid the gambling hall and throw you in jail.*"
-								],
-								[
-									"3",
-									"A noble in town loses badly to you and loudly vows to get revenge.*"
-								],
-								[
-									"4",
-									"You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back."
-								],
-								[
-									"5",
-									"A local crime boss insists you start frequenting the boss's gambling parlor and no others."
-								],
-								[
-									"6",
-									"A high-stakes gambler comes to town and insists that you take part in a game."
-								]
-							],
-							"footnotes": [
-								"*Might involve a rival"
-							]
-						}
+						"If a character calls for 'ALL IN' 3 times and is successful on all rolls, they become famous at the gambling tables and gains the title of Expert Gambler. The character gains advantage to one of their chosen abilities: Wisdom (Insight), Charisma (Deception), or Charisma (Intimidation). Once a character has earned this title, only high-level gamblers can sit at their table. Downtime Activity: Gambling DC becomes 10 + 3d10."
 					]
 				}
 			]

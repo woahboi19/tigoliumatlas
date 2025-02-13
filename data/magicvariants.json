@@ -239,7 +239,7 @@
 				"source": "DMG",
 				"page": 213,
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"bonusWeaponAttack": "+2",
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
@@ -636,7 +636,7 @@
 					"force"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"reqAttune": true,
 				"hasRefs": true,
 				"entries": [
@@ -727,7 +727,7 @@
 					"necrotic"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"reqAttune": true,
 				"hasRefs": true,
 				"entries": [
@@ -777,7 +777,7 @@
 					"psychic"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"reqAttune": true,
 				"hasRefs": true,
 				"entries": [
@@ -802,7 +802,7 @@
 					"radiant"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"reqAttune": true,
 				"hasRefs": true,
 				"entries": [
@@ -881,7 +881,7 @@
 					"thunder"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "platin",
 				"reqAttune": true,
 				"hasRefs": true,
 				"entries": [

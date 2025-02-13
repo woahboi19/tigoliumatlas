@@ -765,7 +765,7 @@
                 "acid"
             ],
             "detail1": "green",
-            "rarity": "very rare",
+            "rarity": "platin",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -5292,7 +5292,7 @@
                 "cold"
             ],
             "detail1": "blue",
-            "rarity": "very rare",
+            "rarity": "platin",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -9628,7 +9628,7 @@
             "name": "Elemental Essence Shard",
             "source": "TCE",
             "page": 127,
-            "rarity": "rare",
+            "rarity": "varies",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -9682,7 +9682,7 @@
             "name": "Elemental Essence Shard (Air)",
             "source": "TCE",
             "page": 127,
-            "rarity": "rare",
+            "rarity": "platin",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -9710,7 +9710,7 @@
             "name": "Elemental Essence Shard (Earth)",
             "source": "TCE",
             "page": 127,
-            "rarity": "rare",
+            "rarity": "platin",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -9738,7 +9738,7 @@
             "name": "Elemental Essence Shard (Fire)",
             "source": "TCE",
             "page": 127,
-            "rarity": "rare",
+            "rarity": "altın",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -9766,7 +9766,7 @@
             "name": "Elemental Essence Shard (Water)",
             "source": "TCE",
             "page": 127,
-            "rarity": "rare",
+            "rarity": "altın",
             "reqAttune": "by a sorcerer",
             "reqAttuneTags": [
                 {
@@ -11259,7 +11259,7 @@
                 "fire"
             ],
             "detail1": "red",
-            "rarity": "very rare",
+            "rarity": "platin",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -11424,7 +11424,7 @@
                 "force"
             ],
             "detail1": "white",
-            "rarity": "very rare",
+            "rarity": "mitril",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -15219,7 +15219,7 @@
                 "lightning"
             ],
             "detail1": "yellow",
-            "rarity": "very rare",
+            "rarity": "platin",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -16830,7 +16830,7 @@
                 "necrotic"
             ],
             "detail1": "black",
-            "rarity": "very rare",
+            "rarity": "mitril",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -18215,7 +18215,7 @@
                 "poison"
             ],
             "detail1": "violet",
-            "rarity": "very rare",
+            "rarity": "platin",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -19262,6 +19262,7 @@
             "name": "Professor Skant",
             "source": "IDRotF",
             "page": 315,
+            "rarity": "mitril",
             "_copy": {
                 "name": "Professor Orb",
                 "source": "WDMM"
@@ -19424,7 +19425,7 @@
                 "psychic"
             ],
             "detail1": "silver",
-            "rarity": "very rare",
+            "rarity": "mitril",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -19656,7 +19657,7 @@
                 "radiant"
             ],
             "detail1": "gold",
-            "rarity": "very rare",
+            "rarity": "mitril",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -26344,7 +26345,7 @@
                 "thunder"
             ],
             "detail1": "orange",
-            "rarity": "very rare",
+            "rarity": "mitril",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -28427,7 +28428,7 @@
             "name": "Absorbing Tattoo",
             "source": "TCE",
             "page": 119,
-            "rarity": "very rare",
+            "rarity": "varies",
             "reqAttune": true,
             "wondrous": true,
             "tattoo": true,
@@ -28598,7 +28599,7 @@
             "page": 162,
             "type": "GV|DMG",
             "tier": "major",
-            "rarity": "rare",
+            "rarity": "varies",
             "reqAttune": true,
             "entries": [
                 "You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
