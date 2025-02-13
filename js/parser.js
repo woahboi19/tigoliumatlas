@@ -1035,7 +1035,8 @@ Parser.ITM_RARITY_TO_SHORT = {
 	"demir": "Demir",
 	"gümüş": "Gümüş",
 	"altın": "Altın",
-	"platin": "Plat.",
+	"platin": "Platin",
+	"mitril": "Mitril",
 	"common": "Com.",
 	"uncommon": "Unc.",
 	"rare": "Rare",
@@ -2357,7 +2358,7 @@ Parser.weightToFull = function (lbs, isSmallUnit) {
 	].filter(Boolean).join(", ");
 };
 
-Parser.RARITIES = ["bakır", "demir", "gümüş","altın","platin", "common", "uncommon", "rare", "very rare", "legendary", "artifact"];
+Parser.RARITIES = ["bakır", "demir", "gümüş","altın","platin","mitril", "common", "uncommon", "rare", "very rare", "legendary", "artifact"];
 Parser.ITEM_RARITIES = ["none", ...Parser.RARITIES, "varies", "unknown", "unknown (magic)", "other"];
 
 Parser.CAT_ID_CREATURE = 1;

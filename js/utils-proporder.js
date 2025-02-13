@@ -1762,6 +1762,9 @@ PropOrder._ITEM = [
 	"reqAttuneTags",
 	"reqAttuneAltTags",
 
+	"ASP",
+	"SZP",
+	
 	"wondrous",
 	"tattoo",
 	"curse",

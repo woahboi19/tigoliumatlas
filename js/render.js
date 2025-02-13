@@ -10700,6 +10700,14 @@ Renderer.item = class {
 		if (item.tattoo) {
 			typeListText.push("tattoo");
 		}
+		if (item.ASP) {
+			typeHtml.push("ASP");
+			typeListText.push("ASP");
+		}
+		if (item.SZP) {
+			typeHtml.push("SZP");
+			typeListText.push("SZP");
+		}
 		if (item.staff) {
 			typeHtml.push("staff");
 			typeListText.push("staff");

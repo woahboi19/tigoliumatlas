@@ -588,6 +588,10 @@
 			color: #94ffdb;
 		}
 		
+		&mitril {
+			color: #2740ff;
+		}
+		
 		&common {
 			color: color.adjust(vars.$rgb-font, $lightness: 15%);
 		}
