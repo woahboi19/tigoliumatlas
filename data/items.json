@@ -2746,6 +2746,7 @@
             "wondrous": true,
             "tattoo": true,
             "entries": [
+                "400 Altın",
                 "Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.",
                 {
                     "type": "entries",
@@ -2806,6 +2807,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "10 Altın",
                 "This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations."
             ],
             "miscTags": [
@@ -2821,6 +2823,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "10 Altın",
                 "This spongy, flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison."
             ],
             "miscTags": [
@@ -3984,8 +3987,10 @@
             "weight": 6,
             "ac": 2,
             "entries": [
+                "1 ASP, 200 Altın",
                 "You can make a ranged weapon attack with this magic shield. It has a normal range of 20 feet and a long range of 60 feet, and it uses your Strength or Dexterity for the attack roll (your choice). If you're proficient with shields, you are proficient with attacks made using this shield. On a hit, it deals {@damage 1d6} slashing damage. If you throw the shield, it reappears in your hand the instant after it hits or misses a target."
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Boots of Elvenkind",
@@ -4014,6 +4019,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "Only humanoids can wear these boots. While wearing the boots, you can choose to have them leave tracks like those of another kind of humanoid of your size."
             ]
         },
@@ -4081,6 +4087,7 @@
                 }
             },
             "entries": [
+                "450 Altın",
                 "While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow."
             ],
             "optionalfeatures": [
@@ -4523,6 +4530,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle."
             ]
         },
@@ -4816,6 +4824,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "Whenever you roll this six-sided die, you can control which number it rolls."
             ]
         },
@@ -4860,6 +4869,7 @@
             "wondrous": true,
             "weight": 25,
             "entries": [
+                "100 Altın",
                 "Food and other perishable items do not age or decay while inside a Chest of Preserving. The chest is 2½ feet long, 1½ feet wide, and 1 foot tall with a half-barrel lid. The chest has a lock, which can be picked with {@item thieves' tools|PHB} and a successful {@dc 15} Dexterity check. Smashing the lock or any other part of the chest renders it nonmagical."
             ]
         },
@@ -4935,8 +4945,10 @@
                 }
             ],
             "entries": [
+                "20 SZP, 100 Altın",
                 "The Circlet of Human Perfection transforms its attuned wearer into an attractive human of average height and weight. The circlet chooses the physical characteristics of the form, such as age, gender, skin color, hair color, and voice. Except for size, the wearer's statistics and racial traits don't change, nor do items worn or carried by the wearer. Removing the circlet ends the effect."
-            ]
+            ],
+            "SZP": true
         },
         {
             "name": "Citrine",
@@ -5014,6 +5026,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.",
                 "Such stones are often embedded in pedestals in public squares in Aundair or in high-end Ghallanda inns."
             ]
@@ -5063,6 +5076,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "While wearing this cloak, you can use a bonus action to make it billow dramatically."
             ]
         },
@@ -5129,6 +5143,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties."
             ],
             "hasFluffImages": true
@@ -5208,7 +5223,7 @@
             "page": 137,
             "tier": "minor",
             "rarity": "gümüş",
-            "ASP":  true,
+            "ASP": true,
             "wondrous": true,
             "entries": [
                 "This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
@@ -5241,6 +5256,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired in this way."
             ]
         },
@@ -5320,6 +5336,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth."
             ]
         },
@@ -5387,11 +5404,13 @@
             "wondrous": true,
             "weight": 1,
             "entries": [
+                "15 SZP, 100 Altın",
                 "This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} spell."
             ],
             "attachedSpells": [
                 "light"
-            ]
+            ],
+            "SZP": true
         },
         {
             "name": "Crampons",
@@ -5930,8 +5949,10 @@
             "dmg1": "1d4",
             "dmgType": "P",
             "entries": [
+                "1 ASP",
                 "This drow-made dagger is decorated with silver web filigree. It magically plays a fragment of a guitar solo when struck or used to strike a foe."
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Dagger of Venom",
@@ -5979,6 +6000,7 @@
                 "Warlock"
             ],
             "entries": [
+                "300 Altın",
                 "This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:",
                 {
                     "type": "list",
@@ -6130,6 +6152,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "1 ASP, 300 Altın",
                 "This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing {@dice 1d20 - 1} cards.",
                 "The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.",
                 "An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful {@dc 15} Intelligence ({@skill Investigation}) check. The creature then appears translucent.",
@@ -6484,7 +6507,8 @@
             ],
             "seeAlsoDeck": [
                 "Deck of Illusions"
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Deck of Many More Things",
@@ -7627,6 +7651,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "1 ASP",
                 "This wooden box contains a set of thirty-two parchment cards.",
                 {
                     "type": "table",
@@ -7963,7 +7988,8 @@
                     ]
                 },
                 "The face of each card bears an illustration of a different item or set of items. As an action, you can draw a card of your choice from the deck and throw it to the ground in an unoccupied space within 5 feet of yourself. When the card hits the ground, the card permanently transforms into the item or set of items depicted on its face. An altered deck of real-world playing cards can simulate the deck, as shown on the Deck of Miscellany table."
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Deck of Oracles",
@@ -9107,9 +9133,11 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "15 SZP, 100 Altın",
                 "This fearsome steel helm makes your eyes glow red while you wear it."
             ],
-            "hasFluffImages": true
+            "hasFluffImages": true,
+            "SZP": true
         },
         {
             "name": "Dreamlily",
@@ -9443,6 +9471,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
             ]
         },
@@ -9457,6 +9486,7 @@
             "rechargeAmount": "{@dice 1d4}",
             "charges": 4,
             "entries": [
+                "200 Altın",
                 "To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.",
                 {
                     "type": "entries",
@@ -10014,11 +10044,13 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "1 ASP, 300 Altın",
                 "This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast {@spell illusory script} at will, requiring no material components."
             ],
             "attachedSpells": [
                 "illusory script"
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Enduring Spellbook",
@@ -10028,6 +10060,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "450 Altın",
                 "This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age."
             ]
         },
@@ -10044,6 +10077,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye."
             ]
         },
@@ -10136,6 +10170,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a {@spell continual flame} spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light."
             ]
         },
@@ -10149,13 +10184,15 @@
             "wondrous": true,
             "weight": 1,
             "entries": [
+                "1 ASP, 200 Altın",
                 "Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.",
                 "The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round."
             ],
             "lootTables": [
                 "Magic Item Table F"
             ],
-            "hasFluffImages": true
+            "hasFluffImages": true,
+            "ASP": true
         },
         {
             "name": "Eye Agate",
@@ -10272,6 +10309,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "350 Altın",
                 "These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the {@spell charm person} spell (save {@dc 13}) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn."
             ],
             "optionalfeatures": [
@@ -10294,11 +10332,13 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "1 ASP, 100 Altın",
                 "These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ({@skill Investigation}) checks that rely on sight while searching an area or studying an object within that range."
             ],
             "lootTables": [
                 "Magic Item Table C"
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Eyes of the Eagle",
@@ -10328,6 +10368,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "450 Altın",
                 "This glittering red gem is commonly found embedded in a ring or brooch.",
                 "While wearing the gem, you gain the following benefits.",
                 {
@@ -10518,10 +10559,12 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "1 ASP, 200 Altın",
                 "This bright plume is made from the feather of a {@creature diatryma|wdh} (pronounced dee-ah-TRY-mah), a Large, colorful, flightless bird native to the Underdark. If you use an action to speak the command word and throw the feather into a Large unoccupied space on the ground within 5 feet of you, the feather becomes a living diatryma for up to 6 hours, after which it reverts to its feather form. It reverts to feather form early if it drops to 0 hit points or if you use an action to speak the command word again while touching the bird.",
                 "When the diatryma reverts to feather form, the magic of the feather can't be used again until 7 days have passed.",
                 "The diatryma uses the statistics of an {@creature axe beak}, except that its beak deals piercing damage instead of slashing damage. The creature is friendly to you and your companions, and it can be used as a mount. It understands your languages and obeys your spoken commands. If you issue no commands, the diatryma defends itself but takes no other actions."
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Feather Token",
@@ -10550,6 +10593,7 @@
                 "Sorcerer"
             ],
             "entries": [
+                "400 Altın",
                 "This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
                 "When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires {@status concentration}, it doesn't require {@status concentration} in this case; the spell lasts for its full duration.",
                 "If you don't have the Wild Magic Sorcerous Origin, once this property is used to roll on the {@table Wild Magic Surge|PHB} table, it can't be used again until the next dawn."
@@ -11196,6 +11240,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
                 "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
                 "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
@@ -11831,6 +11876,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "250 Altın",
                 "These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by {@dice 1d10} + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand."
             ],
             "optionalfeatures": [
@@ -11869,6 +11915,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "20 SZP, 300 Altın",
                 "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength ({@skill Athletics}) checks made to climb or swim."
             ],
             "optionalfeatures": [
@@ -11876,7 +11923,8 @@
             ],
             "lootTables": [
                 "Magic Item Table F"
-            ]
+            ],
+            "SZP": true
         },
         {
             "name": "Gloves of Thievery",
@@ -12581,6 +12629,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "100 Altın",
                 "This hat has 3 charges. While holding the hat, you can use an action to expend 1 of its charges and speak a command word that summons your choice of a {@creature bat}, a {@creature frog}, or a {@creature rat}. The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is neither friendly nor hostile, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 hit points. The hat regains all expended charges daily at dawn."
             ]
         },
@@ -12601,6 +12650,7 @@
                 "Wizard"
             ],
             "entries": [
+                "350 Altın",
                 "This antiquated, cone—shaped hat is adorned with gold crescent moons and stars. While you are wearing it, you gain the following benefits:",
                 {
                     "type": "list",
@@ -13079,6 +13129,7 @@
             "rechargeAmount": "{@dice 1d6 + 4}",
             "charges": 10,
             "entries": [
+                "20 Altın",
                 "This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
             ]
         },
@@ -13173,8 +13224,10 @@
             "rechargeAmount": "{@dice 1d4}",
             "charges": 4,
             "entries": [
+                "10 SZP, 200 Altın",
                 "This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horn's blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
-            ]
+            ],
+            "SZP": true
         },
         {
             "name": "Horn of the Endless Maze",
@@ -13556,6 +13609,7 @@
             "wondrous": true,
             "tattoo": true,
             "entries": [
+                "100 Altın",
                 "Produced by a special needle, this magic tattoo features beautiful calligraphy, images of writing implements, and the like.",
                 {
                     "type": "entries",
@@ -13712,6 +13766,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "While you are playing this musical instrument, you can create harmless, illusory visual effects within a 5-foot-radius sphere centered on the instrument. If you are a bard, the radius increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
             ]
         },
@@ -13728,6 +13783,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "50 Altın",
                 "This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting {@spell dispel magic} on the message erases it. Otherwise, the message fades away after 24 hours.",
                 "The instrument regains all expended charges daily at dawn."
             ]
@@ -14790,6 +14846,7 @@
             ],
             "wondrous": true,
             "entries": [
+                "10 Altın",
                 "This small stylized key plays a vital role in the work of House Kundarak. If you cast the {@spell alarm}, {@spell arcane lock}, or {@spell glyph of warding} spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the {@spell alarm} spell, bypasses the lock of the {@spell arcane lock} spell, or avoids triggering the glyph placed by the {@spell glyph of warding} spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time."
             ]
         },
@@ -15266,6 +15323,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "30 Altın",
                 "This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage."
             ]
         },
@@ -15964,6 +16022,7 @@
             "wondrous": true,
             "tattoo": true,
             "entries": [
+                "150 Altın",
                 "Produced by a special needle, this magic tattoo appears on your body as whatever you desire.",
                 {
                     "type": "entries",
@@ -16054,6 +16113,7 @@
             "rechargeAmount": "{@dice 1d3}",
             "charges": 3,
             "entries": [
+                "200 Altın",
                 "The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell detect thoughts} spell (save {@dc 13}) from it. The medallion regains {@dice 1d3} expended charges daily at dawn."
             ],
             "optionalfeatures": [
@@ -16643,6 +16703,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "A question mark is worked into the head of this key. The key has a {@chance 5} chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears."
             ]
         },
@@ -16699,6 +16760,7 @@
             "wondrous": true,
             "weight": 1,
             "entries": [
+                "300 Altın",
                 "While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
             ],
             "optionalfeatures": [
@@ -17184,9 +17246,11 @@
             "wondrous": true,
             "weight": 3,
             "entries": [
+                "15 SZP, 150 Altın",
                 "While holding this orb, you can use an action to determine which way is north. This property functions only on the Material Plane."
             ],
-            "hasFluffImages": true
+            "hasFluffImages": true,
+            "SZP": true
         },
         {
             "name": "Orb of Dragonkind",
@@ -17261,6 +17325,7 @@
             "wondrous": true,
             "weight": 5,
             "entries": [
+                "150 Altın",
                 "This common wondrous item is a hollow, 5-inch-diameter orb that weighs 5 pounds. Its outer shell is composed of notched bronze rings, which can be turned so that the notches line up. Aligning the notches requires an action, and doing so causes the orb to gong loudly until the notches are no longer aligned. The sounds are spaced 6 seconds apart and can be heard out to a range of 600 feet."
             ]
         },
@@ -17730,6 +17795,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
                 "The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (−5) in all other abilities, and it is immune to poison and psychic damage.",
                 "It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
@@ -17879,6 +17945,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "150 Altın",
                 "This tiny vial contains magic perfume, enough for one use. You can use an action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have advantage on all Charisma checks directed at humanoids of challenge rating 1 or lower. Those subjected to the perfume's effect are not aware that they've been influenced by magic."
             ]
         },
@@ -17962,6 +18029,7 @@
             "tier": "minor",
             "rarity": "demir",
             "entries": [
+                "250 Altın",
                 "The next time you see a creature within 10 minutes after drinking this philter, you become {@condition charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {@condition charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
             ],
             "lootTables": [
@@ -17978,8 +18046,10 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "1 ASP",
                 "This long, delicate wooden pipe features a bowl made from smooth river stone. When the pipe is lit, smoke exhaled from it does not dissipate, instead lingering around the bearer. After 10 minutes, the smoke forms moving shapes that reenact the bearer's most impressive and heroic achievements for 5 minutes. When this realistic performance is complete, the smoke dissipates. The pipe can't be used this way again until the next dawn."
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Pipe of Smoke Monsters",
@@ -17989,6 +18059,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke."
             ],
             "hasFluffImages": true
@@ -18032,6 +18103,7 @@
             "rechargeAmount": "{@dice 1d3}",
             "charges": 3,
             "entries": [
+                "100 Altın",
                 "You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinary rats and giant rats are indifferent toward you and will not attack you unless you threaten or harm them.",
                 "The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth one {@creature swarm of rats} with each expended charge, provided that enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. The pipes regain {@dice 1d3} expended charges daily at dawn.",
                 "Whenever a {@creature swarm of rats} that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, you can make a Charisma check contested by the swarm's Wisdom check. If you lose the contest, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. If you win the contest, the swarm is swayed by the pipes' music and becomes friendly to you and your companions for as long as you continue to play the pipes each round as an action. A friendly swarm obeys your commands. If you issue no commands to a friendly swarm, it defends itself but otherwise takes no actions. If a friendly swarm starts its turn and can't hear the pipes' music, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours."
@@ -18232,6 +18304,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "20 Altın",
                 "While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal 10-foot pole."
             ]
         },
@@ -18243,6 +18316,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
             ],
             "hasFluffImages": true
@@ -18280,6 +18354,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an {@creature awakened shrub} at the end of that time. When the shrub awakens, its roots break the pot, destroying it.",
                 "The awakened shrub is friendly toward you. Absent commands from you, it does nothing."
             ]
@@ -19234,6 +19309,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "This small capsule is made of beeswax blended with sand and a variety of enchanted water plants. A creature who consumes a pressure capsule ignores the effects of swimming at depths greater than 100 feet (see \"{@book Unusual Environments|dmg|5|Unusual Environments}\" in chapter 5 of the Dungeon Master's Guide)."
             ],
             "miscTags": [
@@ -19298,6 +19374,7 @@
             ],
             "wondrous": true,
             "entries": [
+                "150 Altın",
                 "While worn, the helm allows its wearer to use an action to cast the {@spell levitate} spell, requiring no components. The helm's propeller spins and whirs loudly until the spell ends. Each time the spell ends, there is a {@chance 50} chance that the helm loses its magic and becomes nonmagical."
             ]
         },
@@ -19317,6 +19394,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "This item replaces a lost limb-a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die."
             ],
             "hasFluffImages": true
@@ -19474,6 +19552,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "250 Altın",
                 "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
                 {
                     "name": "Anchor",
@@ -19512,6 +19591,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "300 Altın",
                 "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
                 {
                     "name": "Fan",
@@ -19601,6 +19681,7 @@
             "wondrous": true,
             "weight": 2,
             "entries": [
+                "200 Altın",
                 "Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty {@item arrow|phb|arrows}, {@item crossbow bolt|phb|bolts}, or similar objects. The midsize compartment holds up to eighteen {@item javelin|phb|javelins} or similar objects. The longest compartment holds up to six long objects, such as bows, {@item quarterstaff|phb|quarterstaffs}, or {@item spear|phb|spears}.",
                 "You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
             ],
@@ -20144,6 +20225,7 @@
             "rarity": "demir",
             "reqAttune": true,
             "entries": [
+                "400 Altın",
                 "While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
             ],
             "optionalfeatures": [
@@ -20185,6 +20267,7 @@
             "rarity": "demir",
             "reqAttune": true,
             "entries": [
+                "450 Altın",
                 "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
                 "You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
                 "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
@@ -21175,6 +21258,7 @@
             "wondrous": true,
             "weight": 3,
             "entries": [
+                "250 Altın",
                 "This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.",
                 "If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.",
                 "The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed."
@@ -21213,6 +21297,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "You can cut this 50-foot coil of hempen rope into any number of smaller pieces, and then use an action to speak a command word and cause the pieces to knit back together. The pieces must be in contact with each other and not otherwise in use. A rope of mending is forever shortened if a section of it is lost or destroyed."
             ]
         },
@@ -21264,6 +21349,7 @@
             "wondrous": true,
             "focus": true,
             "entries": [
+                "175 Altın",
                 "Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an {@spell antimagic field} causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends."
             ]
         },
@@ -21340,11 +21426,13 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "1 ASP",
                 "While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage."
             ],
             "lootTables": [
                 "Magic Item Table B"
-            ]
+            ],
+            "ASP": true
         },
         {
             "name": "Sage Card",
@@ -21722,6 +21810,7 @@
             ],
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "You can use this pen to write on any surface. You decide whether the writing is visible or {@condition invisible}, but the writing is always visible to a person with the Mark of Scribing.",
                 "Any creature with the Mark of Scribing can use an action to touch the {@condition invisible} writing, making it visible to all.",
                 "If you use the pen to write on a creature that isn't a construct, the writing fades after 7 days."
@@ -21953,6 +22042,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "40 Altın",
                 "Skillfully carved from sandstone, this 1-foot-tall statuette depicts a shark twisting through the water with its mouth open. If any Tiny sea-dwelling animal is within 1 inch of the statuette's mouth, the shark flashes to life and deals 1 piercing damage to it. The shark can deal damage in this way no more than once per hour."
             ]
         },
@@ -22223,6 +22313,7 @@
             "weight": 6,
             "ac": 2,
             "entries": [
+                "75 Altın",
                 "The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face's expression."
             ]
         },
@@ -22375,6 +22466,7 @@
             "ac": 2,
             "bonusAc": "+1",
             "entries": [
+                "250 Altın",
                 "While you are wielding this shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
                 {
                     "type": "entries",
@@ -22442,6 +22534,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "60 Altın",
                 "When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing the clothing, you can speak its command word as a bonus action to transform your outfit into your choice of one of the other designs contained within it. Regardless of its appearance, the outfit can't be anything but clothing. Although it can duplicate the look of other magical clothing, it doesn't gain their magical properties."
             ]
         },
@@ -22664,6 +22757,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "300 Altın",
                 "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.",
                 "As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, a {@item potion of healing}, or a {@item potion of climbing}. Once this property is used, it can't be used until the next dawn. A potion you create in this way loses its magical properties if it isn't imbibed within 24 hours."
             ]
@@ -22692,6 +22786,7 @@
                 "Wizard"
             ],
             "entries": [
+                "400 Altın",
                 "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.",
                 "You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells."
             ]
@@ -22704,6 +22799,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "325 Altın",
                 "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
                 "You have advantage on saving throws you make to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on you."
             ]
@@ -22764,6 +22860,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "150 Altın",
                 "Smokepowder is a magical explosive chiefly used to propel a bullet out of the barrel of a firearm. It is stored in airtight wooden kegs or tiny, waterproof leather packets. A packet contains enough smokepowder for five shots, and a keg holds enough smokepowder for five hundred shots.",
                 "If smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it {@dice 1d6}. A successful {@dc 12} Dexterity saving throw halves the damage.",
                 "Casting {@spell dispel magic} on smokepowder renders it permanently inert."
@@ -23039,6 +23136,7 @@
             "reqAttune": "optional",
             "wondrous": true,
             "entries": [
+                "300 Altın",
                 "A lapis lazuli spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
                 "If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
                 "A lapis lazuli spell gem can store up to 1st level spells. Spells cast from the spell gem have a save DC of 13 and an attack bonus of {@hit 5}.",
@@ -23061,6 +23159,7 @@
             "reqAttune": "optional",
             "wondrous": true,
             "entries": [
+                "200 Altın",
                 "An obsidian spell gem can contain one cantrip from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
                 "If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
                 "An obsidian spell gem can only store cantrips. Cantrips cast from the spell gem have a save DC of 13 and an attack bonus of {@hit 5}.",
@@ -23167,6 +23266,7 @@
             "tier": "minor",
             "rarity": "bakır",
             "entries": [
+                "50 Altın",
                 "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
                 "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.",
                 "Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
@@ -23191,6 +23291,7 @@
             "tier": "minor",
             "rarity": "demir",
             "entries": [
+                "100 Altın",
                 "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
                 "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
                 "Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
@@ -23385,6 +23486,7 @@
             "tier": "minor",
             "rarity": "bakır",
             "entries": [
+                "10 Altın",
                 "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
                 "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.",
                 "Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
@@ -23437,6 +23539,7 @@
             "wondrous": true,
             "tattoo": true,
             "entries": [
+                "200 Altın",
                 "Produced by a special needle, this magic tattoo contains a single {@filter 1st level spell|spells|level=1}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
                 "The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
             ],
@@ -23512,6 +23615,7 @@
             "wondrous": true,
             "tattoo": true,
             "entries": [
+                "100 Altın",
                 "Produced by a special needle, this magic tattoo contains a single {@filter cantrip|spells|level=0}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
                 "The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
             ],
@@ -23685,6 +23789,7 @@
             "dmg2": "1d8",
             "staff": true,
             "entries": [
+                "80 Altın",
                 "If you place an object weighing no more than 1 pound (such as a shard of crystal, an egg, or a stone) above the tip of the staff while holding it, the object floats an inch from the staff's tip and remains there until it is removed or until the staff is no longer in your possession. The staff can have up to three such objects floating over its tip at any given time. While holding the staff, you can make one or more of the objects slowly spin or turn in place."
             ]
         },
@@ -23707,6 +23812,7 @@
             "charges": 10,
             "staff": true,
             "entries": [
+                "85 Altın",
                 "This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek.",
                 "The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever."
             ]
@@ -23916,6 +24022,7 @@
             "charges": 10,
             "staff": true,
             "entries": [
+                "75 Altın",
                 "This wooden staff has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of you, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mildscented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff turns into flower petals and is lost forever."
             ]
         },
@@ -25874,6 +25981,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "35 Altın",
                 "While this stuffed doll is within 5 feet of you, you can spend a short rest telling it to say up to six phrases, none of which can be more than six words long, and set an observable condition under which the doll speaks each phrase. You can also replace old phrases with new ones. Whatever the condition, it must occur within 5 feet of the doll to make it speak. For example, whenever someone picks up the doll, it might say, \"I want a piece of candy.\" The doll's phrases are lost when your attunement to the doll ends."
             ],
             "hasFluffImages": true
@@ -25924,6 +26032,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "25 Altın",
                 "This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison."
             ]
         },
@@ -26712,6 +26821,7 @@
             "tier": "minor",
             "rarity": "demir",
             "entries": [
+                "200 Altın",
                 "This arrow can't be broken, except when it is within an {@spell antimagic field}."
             ],
             "hasFluffImages": true
@@ -26723,9 +26833,11 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "20 SZP, 100 Altın",
                 "Glamerweave is clothing imbued with harmless illusory magic. While wearing these clothes, you can use a bonus action to create a moving illusory pattern within the cloth. Alternatively, you can have the pattern rise from the cloth. For example, a glamerweave gown might be wreathed in harmless, illusory flames, while a glamerweave hat might have illusory butterflies fluttering around it.",
                 "When you make a Charisma ({@skill Performance}) or Charisma ({@skill Persuasion}) check while wearing the glamerweave, you can roll a {@dice d4} and add the number rolled to the check. Once you use this property, it can't be used again until the next dawn."
-            ]
+            ],
+            "SZP": true
         },
         {
             "name": "Universal Solvent",
@@ -26788,6 +26900,7 @@
             "rarity": "bakır",
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
             ]
         },
@@ -27007,6 +27120,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "75 Altın",
                 "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.",
                 "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed."
             ]
@@ -27350,6 +27464,7 @@
             "rechargeAmount": "{@dice 1d6 + 1}",
             "charges": 7,
             "entries": [
+                "75 Altın",
                 "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and create a harmless burst of multicolored light at a point you can see up to 60 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.",
                 "The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed."
             ]
@@ -27366,6 +27481,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "75 Altın",
                 "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to scowl for 1 minute.",
                 "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of smiles|xge}."
             ]
@@ -27383,6 +27499,7 @@
             "rechargeAmount": "{@dice 1d3}",
             "charges": 3,
             "entries": [
+                "1 ASP, 400 Altın",
                 "The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains {@dice 1d3} expended charges daily at dawn."
             ],
             "optionalfeatures": [
@@ -27391,7 +27508,8 @@
             "lootTables": [
                 "Magic Item Table B"
             ],
-            "hasFluffImages": true
+            "hasFluffImages": true,
+            "ASP": true
         },
         {
             "name": "Wand of Smiles",
@@ -27405,6 +27523,7 @@
             "rechargeAmount": 3,
             "charges": 3,
             "entries": [
+                "75 Altın",
                 "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to smile for 1 minute.",
                 "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of scowls|xge}."
             ]
@@ -27640,6 +27759,7 @@
             ],
             "wondrous": true,
             "entries": [
+                "50 Altın",
                 "A wand sheath clamps onto your arm and imparts the following benefits:",
                 {
                     "type": "list",
@@ -27839,6 +27959,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "450 Altın",
                 "When mounted at the helm of an elemental galleon or airship, this wheel allows a creature that possesses the Mark of Storm to telepathically control the elemental bound inside the vessel.",
                 "If a wheel of wind and water is mounted on a mundane sailing ship, a creature with the Mark of Storm who is using the wheel can create an area of ideal conditions around the vessel, increasing its speed by 5 miles per hour."
             ]
@@ -27959,6 +28080,7 @@
             "rarity": "demir",
             "wondrous": true,
             "entries": [
+                "350 Altın",
                 "While holding this fan, you can use an action to cast the {@spell gust of wind} spell (save {@dc 13}) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative {@chance 20} chance of not working and tearing into useless, nonmagical tatters."
             ],
             "attachedSpells": [
@@ -29592,6 +29714,7 @@
             "reqAttune": true,
             "wondrous": true,
             "entries": [
+                "100 Altın",
                 "An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you're a spellcaster, you can use this as a spellcasting focus.",
                 "When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item's wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.",
                 {
@@ -29984,6 +30107,7 @@
             "wondrous": true,
             "weight": 3,
             "entries": [
+                "150 Altın",
                 "An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.",
                 "If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.",
                 {

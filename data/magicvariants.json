@@ -538,6 +538,7 @@
 					}
 				],
 				"entries": [
+					"100 Altın + Silahın fiyatı",
 					"An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.",
 					"As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes."
 				]
@@ -681,6 +682,7 @@
 				"tier": "minor",
 				"rarity": "bakır",
 				"entries": [
+					"50 Altın + Zırhın fiyatı",
 					"This armor never gets dirty."
 				]
 			}
@@ -2466,6 +2468,7 @@
 				"tier": "minor",
 				"rarity": "demir",
 				"entries": [
+					"200 Altın + Silahın fiyatı",
 					"In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet."
 				]
 			}
@@ -3088,6 +3091,7 @@
 				"rarity": "demir",
 				"reqAttune": true,
 				"entries": [
+					"450 Altın + Silahın fiyatı",
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
 					"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
 				]
@@ -3108,6 +3112,7 @@
 				"tier": "minor",
 				"rarity": "bakır",
 				"entries": [
+					"50 Altın + Zırhın fiyatı",
 					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
 				]
 			}
@@ -3451,6 +3456,7 @@
 				"tier": "major",
 				"rarity": "demir",
 				"entries": [
+					"400 Altın + Silahın fiyatı",
 					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
 					"{@note Note: According to the SRD, it is an extra {@damage 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
 				],
@@ -3530,6 +3536,7 @@
 				"tier": "minor",
 				"rarity": "demir",
 				"entries": [
+					"250 Altın",
 					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
 				]
 			}
