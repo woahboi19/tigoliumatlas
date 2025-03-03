@@ -33,6 +33,35 @@ table.home-table td {
 	border-radius: 0;
 }
 
+.home__icn-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;  // Matches the original icon container width
+    height: 50px; // Matches the original icon height
+    overflow: hidden;
+}
+
+.home__img-page {
+    width: 100%;  // Adjust width dynamically
+    height: 100%; // Adjust height dynamically
+    max-width: 64px; // Prevents excessive resizing
+    max-height: 64px;
+    object-fit: contain; // Prevents stretching, keeping original aspect ratio
+    transition: transform 0.2s ease-in-out, opacity 0.2s;
+}
+
+// Hover Effect
+.home__btn-page:hover .home__img-page {
+    transform: scale(1.1); // Slight zoom effect
+    opacity: 0.8; // Fades slightly
+}
+
+.home__btn-page[href="spells.html"] {
+    margin-right: 10px;  // Pushes it away from the next button
+}
+
+
 @media screen and (width <= #{vars.$width-screen-lg}) {
 	.home__btn-page {
 		width: 113px;
