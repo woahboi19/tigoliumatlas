@@ -51,6 +51,7 @@ class NavBar {
 		this._addElement_li(null, "races.html", "Irklar", {isRoot: true});
 
 		this._addElement_dropdown(null, NavBar._CAT_REFERENCES);
+		this._addElement_li(NavBar._CAT_REFERENCES, "variantrules.html", "Ek Kurallar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "actions.html", "Aksiyonlar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "conditionsdiseases.html", "Kondisyon & Hastalıklar");
 		this._addElement_li(NavBar._CAT_REFERENCES, "deities.html", "İlahlar");

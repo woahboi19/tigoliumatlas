@@ -1423,17 +1423,16 @@
 		},
 		{
 			"name": "Downtime Activity: Crime",
-			"source": "XGE",
-			"page": 130,
-			"ruleType": "VO",
+			"source": "Atlas",
+			"ruleType": "Gelir",
 			"type": "entries",
 			"entries": [
-				"Sometimes it pays to be bad. This activity gives a character the chance to make some extra cash, at the risk of arrest.",
+				"Bazı maceracılar kahraman olmak yerine suç işlemeyi tercih edebilirler ve bu eylemler oldukça riskli olabilir. Özellikle de medeni şehirlerde…",
 				{
 					"type": "entries",
 					"name": "Resources",
 					"entries": [
-						"A character must spend 50 SZP for gathering information on potential targets and committing the intended crime. (30 SZP is spent for rogue instead of 50)"
+						"Bir karakter, potansiyel hedefler hakkında bilgi toplamak ve planlanan suçu işlemek için 40 SZP harcamalıdır. Bir Düzenbaz (Rogue) için bu miktar 30 SZP'dir."
 					]
 				},
 				{
@@ -1498,32 +1497,31 @@
 			]
 		},
 		{
-			"name": "Downtime Activity: Gambling",
-			"source": "XGE",
-			"page": 130,
-			"ruleType": "VO",
+			"name": "Kumar (Zar/İskambil/İddia)",
+			"source": "Atlas",
+			"ruleType": "Gelir",
 			"type": "entries",
 			"entries": [
-				"Games of chance are a way to make a fortune\u2014and perhaps a better way to lose one.",
+				"Bazı maceracılar hayatın kendisini bir kumar olarak görür ve onlar için masada kazanmak ya da kaybetmek önemsizdir, onlar yalnızca Maça As'ını bekler! Bazı maceracılarsa zar oyunlarında el çabukluğu ve zar tutmanın sırlarının peşindedir. Eğer karakteriniz böyle bir kumarbaz ise boş zamanlarında ne yaptığı oldukça açık!",
 				{
 					"type": "entries",
-					"name": "Resources",
+					"name": "Kaynaklar",
 					"entries": [
-						"This activity requires 30 SZP plus a stake of at least 10 gp, to a maximum of x1 of maximum gp reward of current rank (All in)."
+						"Bu aktivite, 30 SZP ve en az 10 gp'lik bir bahis, en fazla mevcut nişanın altın sınırı kadar bahis gerektirir (All In)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Resolution",
+					"name": "Sonuçlar",
 					"entries": [
-						"The character must make a series of checks, with a DC determined at random based on the quality of the competition that the character runs into. Part of the risk of gambling is that one never knows who might end up sitting across the table.",
-						"The character makes three checks: Wisdom ({@skill Insight}), Charisma ({@skill Deception}), and Charisma ({@skill Intimidation}). If the character has proficiency with an appropriate {@item gaming set|PHB}, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
+						"Karakter bir dizi zar atmalıdır, karakterin karşılaştığı rakibin gücü bu atılan zarların sonucu olarak belirlenir. Kumarın risklerinden biri, masanın karşısında kimin oturabileceğini asla bilememektir.",
+						"Karakter üç zar atar: Wisdom ({@skill Insight}), Charisma ({@skill Deception}) ve Charisma ({@skill Intimidation}). Her bir zar için DC, {@dice 5 + 2d10} olarak belirlenir. Karakterin nasıl bir sonuç aldığını görmek için Kumar Sonucu tablosuna bakın.",
 						{
 							"type": "table",
-							"caption": "Gambling Results",
+							"caption": "Kumar Sonucu",
 							"colLabels": [
-								"Result",
-								"Value"
+								"Başarılı Olunan Zar Sayısı",
+								"Kazanım ve Kayıplar"
 							],
 							"colStyles": [
 								"col-5",
@@ -1531,20 +1529,20 @@
 							],
 							"rows": [
 								[
-									"0 successes",
-									"Lose all the money you bet, and accrue a debt equal to that amount."
+									"0 başarı",
+									"Karakter ortaya koyduğu tüm altını kaybeder."
 								],
 								[
-									"1 success",
-									"Lose half the money you bet."
+									"1 başarı",
+									"Karakter ortaya koyduğu altının yarısını kaybeder."
 								],
 								[
-									"2 successes",
-									"Gain the amount you bet plus half again more."
+									"2 başarı",
+									"Karakter ortaya koyduğu altının yarısını kazanır."
 								],
 								[
-									"3 successes",
-									"Gain double the amount you bet."
+									"3 başarı",
+									"Karakter ortaya koyduğu altın kadar kazanır."
 								]
 							]
 						}
@@ -1552,9 +1550,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Extras",
+					"name": "Ekstralar",
 					"entries": [
-						"If a character calls for 'ALL IN' 3 times and is successful on all rolls, they become famous at the gambling tables and gains the title of Expert Gambler. The character gains advantage to one of their chosen abilities: Wisdom (Insight), Charisma (Deception), or Charisma (Intimidation). Once a character has earned this title, only high-level gamblers can sit at their table. Downtime Activity: Gambling DC becomes 10 + 3d10."
+						"Bir karakter 3 kere ALL IN yapar ve en yüksek ödülü kazanırsa, artık diyarlarda büyük bir kumarbaz olarak nam salacaktır, Karakter seçtiği Sezgi ({@skill Insight}), Aldatma ({@skill Deception}) veya Korkutma ({@skill Intimidation}) becerilerinden birisinde kalıcı olarak avantaj kazanacak ve tüm kumarbazlar ve suçlu karakterler tarafından tanınmış biri olarak addedilecektir. Uygun rol duyuru geçildikten sonra oyuncu, kumar karakterine devam etmek istiyorsa karşısına yalnızca kendisi kadar iyi oyuncuların oturacağını bilmelidir. Kumar Serbest Zaman Aktivitesinin Zorluk Derecesi {@dice 10 + 3d10}'a çıkacaktır. Belki de bu ünlü ve zengin kumarbaz, bazı hırsız loncalarının hedefi haline bile gelebilir!"
 					]
 				}
 			]
@@ -13820,6 +13818,95 @@
 			"entries": [
 				"A typical wand has expendable charges. If you'd like wands to be a limited resource, you can make some of them incapable of regaining charges. Consider increasing the base number of charges in such a wand, to a maximum of 25 charges. These charges are never regained once they're expended."
 			]
-		}
+		},
+		{
+			"name": "Gösteriler (Her Türlü Performans ve Enstrüman)",
+			"source": "Atlas",
+			"ruleType": "Gelir",
+			"type": "entries",
+			"entries": [
+			  "Bir sokak sanatçısının sokaklarda ya da sirklerde gösteriler yapması, ya da bir Saray Ozanı'nın üst tabaka soylularını hoş vakit geçirmesini sağlaması diyarlarca görülmedik bir durum değildir. Boş vakitlerinde performans sanatını icra eden karakterler, 40 SZP harcayarak bir gösteri düzenleyebilirler. Gösterinin sonucunu belirlemek için {@dice 1d20} atılır ve sonuç aşağıdaki tablodan değerlendirilir. Ozan (Bard) sınıfından olan karakterler nerede ve kime gösteri yapacaklarını bilirler, bu yüzden Ozanlar için SZP ücreti 40 yerine 30'dur.",
+			  {
+				"type": "table",
+				"caption": "Nişanlara Göre Kazanım ve Kayıplar",
+				"colLabels": [
+				  "Performans Zarı",
+				  "Performans Kalitesi",
+				  "Bakır/Demir",
+				  "Gümüş/Altın",
+				  "Platin/Mitrl",
+				  "Obsidyen"
+				],
+				"colStyles": [
+				  "col-2",
+				  "col-3",
+				  "col-1",
+				  "col-1",
+				  "col-1",
+				  "col-1"
+				],
+				"rows": [
+				  [
+					"10 ve altı",
+					"Nerede benim domatesim?",
+					"Karakter, gösteriden hiçbir Altın Ödülü kazanamaz.",
+					"Gösteri yapılan bölgede, sıradaki oyun boyunca sürecek ve sonra sona erecek şekilde;",
+					"Tüm Karizma Beceri Zarlarına (Charisma Skill Checks) Dezavantaj alır.",
+					"“Çürük birkaç domates ve yuhalanmak her sanatçının ilhamını kamçılar!“"
+				  ],
+				  [
+					"11, 12, 13",
+					"Son derece sıkıcı...",
+					"15 Altın",
+					"75 Altın",
+					"210 Altın",
+					"380 Altın"
+				  ],
+				  [
+					"14, 15, 16",
+					"Kabul edilebilir sıradanlıkta",
+					"30 Altın",
+					"150 Altın",
+					"420 Altın",
+					"760 Altın"
+				  ],
+				  [
+					"17, 18, 19, 20",
+					"Oldukça yetenekli...",
+					"60 Altın",
+					"300 Altın",
+					"840 Altın",
+					"1520 Altın"
+				  ],
+				  [
+					"21, 22, 23",
+					"O bir efsane, imza almalıyım!",
+					"120 Altın",
+					"600 Altın",
+					"1680 Altın",
+					"3040 Altın"
+				  ],
+				  [
+					"24 ve üzeri",
+					"Sune ve Milil'in gerçek çocuğu!!!",
+					"Karakter, gösteri yapılan bölgede, sıradaki oyun boyunca sürecek ve sonra bitecek şekilde;",
+					"Tüm Karizma Beceri Zarlarına Avantaj (Charisma Skill Check Advantage) alır. Fakat şöhretin bedeli ağırdır ey dostlar! ",
+					"Bu ışıklı hayat ve hayranlarınız, bu bölgede gizlenmenize (Stealth) ve tanınmamanıza engel olur.",
+					"Aynı bölgede Gizlenme (Stealth) atışlarınıza Dezavantaj alırsınız."
+				  ]
+				]
+			  },
+			  {
+				"type": "entries",
+				"name": "Ekstralar",
+				"entries": [
+				  "Karakterler aynı bölgede kazandıkları altın miktarına göre ve daha fazla çok iyi/kötü gösteri yaparlarsa, gösteri yapılan bölgede avantajlı ya da dezavantajlı kalıcı olarak kazanmış sayılırlar.",
+				  "Eğer gösteriye nişan takıldıysa: Ey Dünya! Daha ne istiyorsun? Cehenneme kadar yolun var!",
+				  "Aynı bölgede 3 farklı gösteri yapıp 3 farklı nişandan 600 altın ve daha fazla altın ödülü alınan bir performans imza atan karakterler için:",
+				  "*\"Ve perde kapandı...\"* - W. Shakespeare *'HAMLET'*"
+				]
+			  }
+			]
+		  }		  
 	]
 }
