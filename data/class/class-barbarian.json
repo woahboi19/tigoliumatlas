@@ -442,23 +442,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Path of the Juggernaut",
-			"shortName": "Juggernaut",
-			"source": "TDCSR",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 165,
-			"subclassFeatures": [
-				"Path of the Juggernaut|Barbarian|PHB|Juggernaut|TDCSR|3",
-				"Demolishing Might|Barbarian|PHB|Juggernaut|TDCSR|6",
-				"Resolute Stance|Barbarian|PHB|Juggernaut|TDCSR|6",
-				"Thunderous Blows (10th Level)|Barbarian|PHB|Juggernaut|TDCSR|10",
-				"Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10",
-				"Unstoppable|Barbarian|PHB|Juggernaut|TDCSR|14"
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Path of the Giant",
 			"shortName": "Giant",
 			"source": "BGG",

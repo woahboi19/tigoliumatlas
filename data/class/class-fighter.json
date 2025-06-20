@@ -663,22 +663,6 @@
 			]
 		},
 		{
-			"name": "Scofflaw",
-			"shortName": "Scofflaw",
-			"source": "HWCS",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"page": 41,
-			"subclassFeatures": [
-				"Scofflaw|Fighter||Scofflaw|HWCS|3",
-				"Misdirection|Fighter||Scofflaw|HWCS|7",
-				"Blindside|Fighter||Scofflaw|HWCS|10",
-				"Infamy|Fighter||Scofflaw|HWCS|15",
-				"Two For Flinching|Fighter||Scofflaw|HWCS|18"
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Echo Knight",
 			"shortName": "Echo Knight",
 			"source": "EGW",

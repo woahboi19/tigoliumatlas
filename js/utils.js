@@ -51,7 +51,7 @@ globalThis.VeCt = {
 
 	SYM_UTIL_TIMEOUT: Symbol("timeout"),
 
-	LOC_HOSTNAME_CANCER: "5e.tools",
+	LOC_HOSTNAME_CANCER: "tigolium.xyz",
 
 	URL_BREW: `https://github.com/TheGiddyLimit/homebrew`,
 	URL_ROOT_BREW: `https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/`, // N.b. must end with a slash
@@ -3587,7 +3587,7 @@ if (!IS_DEPLOYED && !IS_VTT && typeof window !== "undefined") {
 		if (EventUtil.noModifierKeys(e) && typeof d20 === "undefined") {
 			if (e.key === "#") {
 				const spl = window.location.href.split("/");
-				window.prompt("Copy to clipboard: Ctrl+C, Enter", `https://5e.tools/${spl[spl.length - 1]}`);
+				window.prompt("Copy to clipboard: Ctrl+C, Enter", `https://tigolium.xyz/${spl[spl.length - 1]}`);
 			}
 		}
 	});

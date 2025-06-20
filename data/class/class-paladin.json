@@ -699,48 +699,6 @@
 				"Mortal Bulwark|Paladin||Watchers|TCE|20"
 			],
 			"hasFluffImages": true
-		},
-		{
-			"name": "Oath of the Open Sea",
-			"shortName": "Open Sea",
-			"source": "TDCSR",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 174,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"create or destroy water",
-							"expeditious retreat"
-						],
-						"5": [
-							"augury",
-							"misty step"
-						],
-						"9": [
-							"call lightning",
-							"freedom of the waves|TDCSR"
-						],
-						"13": [
-							"control water",
-							"freedom of movement"
-						],
-						"17": [
-							"commune with nature",
-							"freedom of the winds|TDCSR"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of the Open Sea|Paladin|PHB|Open Sea|TDCSR|3",
-				"Aura of Liberation|Paladin|PHB|Open Sea|TDCSR|7",
-				"Stormy Waters|Paladin|PHB|Open Sea|TDCSR|15",
-				"Aura of Liberation (18th Level)|Paladin|PHB|Open Sea|TDCSR|18",
-				"Mythic Swashbuckler|Paladin|PHB|Open Sea|TDCSR|20"
-			],
-			"hasFluffImages": true
 		}
 	],
 	"classFeature": [
