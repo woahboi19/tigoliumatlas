@@ -311,93 +311,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Adroit Crafter",
-			"source": "GHLoE",
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Proficiency in a skill or tool",
-						"entrySummary": "Prof skill/tool"
-					}
-				}
-			],
-			"entries": [
-				"You've trained in crafting items using a skill or tool that you're proficient with, and the steps in crafting have become second nature to you. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"The time it takes to create an item using your proficient skills or tools is halved.",
-						"If you fail to successfully craft the item and would lose the components, you retain the components instead."
-					]
-				}
-			]
-		},
-		{
-			"name": "Aerial Expert",
-			"source": "HWCS",
-			"page": 47,
-			"prerequisite": [
-				{
-					"other": "Glide trait"
-				}
-			],
-			"entries": [
-				"Years of practice or an innate talent have made you adept at gliding. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You no longer need to move at least 10 feet to perform long and high jumps. You may choose whether the jump uses your Strength or Dexterity score for determining height or distance, and you double the distance you would normally leap in either case.",
-						"You may take the {@action Dash} action while gliding to fly an additional distance up to your movement speed.",
-						"You may change direction freely while gliding, and may gain up to 10 feet of altitude once before you finish your descent."
-					]
-				}
-			]
-		},
-		{
-			"name": "Agent of Order",
-			"source": "SatO",
-			"page": 10,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato|scion of the outer planes (lawful outer plane)"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You can channel cosmic forces of order to gain these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Stasis Strike",
-							"entries": [
-								"Once per turn, when you damage a creature you can see within 60 feet of yourself, you can deal an extra {@damage 1d8} force damage to the target, and it must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + the modifier of the spellcasting ability you chose for the Scion of the Outer Planes feat) as spectral bindings try to ensnare it. On a successful save, the target escapes. On a failed save, the target has the restrained condition until the start of your next turn. These bindings manifest as chains or some other symbol of stasis. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Alert",
 			"source": "PHB",
 			"page": 165,
@@ -485,75 +398,6 @@
 			]
 		},
 		{
-			"name": "Baleful Scion",
-			"source": "SatO",
-			"page": 10,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato|scion of the outer planes (evil outer plane)"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You can channel cosmic forces of evil to gain these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Grasp of Avarice",
-							"entries": [
-								"Once per turn, when you damage a creature you can see within 60 feet of yourself, you can also deal necrotic damage to it. The necrotic damage equals {@damage 1d6} + your proficiency bonus, and you regain a number of hit points equal to this necrotic damage dealt. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Bandit Cunning",
-			"source": "HWCS",
-			"page": 47,
-			"entries": [
-				"Your time as a bandit has granted you a sense for danger, and made you skilled at sizing up opponents. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"When you are asked to make a saving throw, you may spend your reaction to add your Intelligence modifier as an additional bonus to the saving throw. You cannot use this ability again until you have completed a long rest.",
-						"During combat, you can use your action to make an Intelligence ({@skill Investigation}) check against any creature you have seen fight. As long as you succeed against a DC of 10 + their challenge rating, you can learn one useful fact of your choice about the target's combat abilities. Choose from:",
-						{
-							"type": "list",
-							"items": [
-								"one damage resistance or immunity",
-								"one condition immunity",
-								"one special ability possessed by the creature that either does damage, or prevents damage",
-								"one option under their attack, legendary, or reaction actions",
-								"one special sense they possess"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Bountiful Luck",
 			"source": "XGE",
 			"page": 73,
@@ -570,29 +414,6 @@
 				"Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You're not sure how you do it; you just wish it, and it happens. Surely a sign of fortune's favor!",
 				"When an ally you can see within 30 feet of you rolls a 1 on the {@dice d20} for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
 				"When you use this ability, you can't use your Lucky racial trait before the end of your next turn."
-			]
-		},
-		{
-			"name": "Careful Crafter",
-			"source": "GHLoE",
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Proficiency in a skill or tool",
-						"entrySummary": "Prof skill/tool"
-					}
-				}
-			],
-			"entries": [
-				"You've trained in crafting items using a skill or tool that you're proficient with, and your creations are known for being well made and reliable. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You make all ability checks for crafting with advantage.",
-						"Anyone assisting you in crafting an item gains advantage on their ability checks for crafting.",
-						"If you fail to successfully craft the item, the amount of time it took to complete the process is halved."
-					]
-				}
 			]
 		},
 		{
@@ -675,80 +496,6 @@
 						"You gain proficiency with {@item cook's utensils|phb} if you don't already have it.",
 						"As part of a short rest, you can cook special food, provided you have ingredients and {@item cook's utensils|phb} on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
 						"With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
-					]
-				}
-			]
-		},
-		{
-			"name": "Cohort of Chaos",
-			"source": "SatO",
-			"page": 10,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato|scion of the outer planes (chaotic outer plane)"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You can channel cosmic forces of chaos to gain these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Chaotic Flare",
-							"entries": [
-								"When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll a d4 and consult the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can't occur until after the first flare ends.",
-								{
-									"type": "table",
-									"caption": "Chaotic Flares",
-									"colStyles": [
-										"col-2 text-center",
-										"col-10"
-									],
-									"colLabels": [
-										"d4",
-										"Flare"
-									],
-									"rows": [
-										[
-											"1",
-											"{@b Battle Fury.} A creature of your choice that you can see is filled with reckless fury. It has advantage on attack rolls and disadvantage on ability checks."
-										],
-										[
-											"2",
-											"{@b Disruption Field.} Waves of energy ripple around you. Every creature that starts its turn within 5 feet of you, or that moves into that area for the first time on a turn, takes {@damage 1d8} force damage."
-										],
-										[
-											"3",
-											"{@b Unbound.} When you move, you can use some or all of your walking speed to teleport yourself once, along with any equipment you're wearing or carrying, up to the distance used to an unoccupied space that you can see."
-										],
-										[
-											"4",
-											"{@b Wailing Winds.} Winds swirl in a 15-foot-radius sphere centered on you. You and any other creatures in that area have disadvantage on Wisdom saving throws."
-										]
-									]
-								}
-							]
-						}
 					]
 				}
 			]
@@ -1850,26 +1597,6 @@
 			]
 		},
 		{
-			"name": "Heavy Glider",
-			"source": "HWCS",
-			"page": 47,
-			"prerequisite": [
-				{
-					"other": "Glide trait"
-				}
-			],
-			"entries": [
-				"You were either born with great strength, or trained hard to allow yourself to glide under circumstances most would find impossible. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You may glide while holding a heavy weapon and wearing heavy armor as long as you aren't encumbered.",
-						"You may choose to land your glide in a space occupied by a hostile creature that is Large or smaller. If you do so, you may roll an opposed Strength check against the creature. On a success, you push them 10 feet away and knock them {@condition prone} with the force of your impact. On a failure you land in the nearest un-occupied space."
-					]
-				}
-			]
-		},
-		{
 			"name": "Infernal Constitution",
 			"source": "XGE",
 			"page": 75,
@@ -2712,6 +2439,11 @@
 			"name": "Mystic Conflux",
 			"source": "TDCSR",
 			"page": 190,
+			"prerequisite": [
+				{
+					"level": 10
+				}
+			],
 			"additionalSpells": [
 				{
 					"innate": {
@@ -2763,26 +2495,6 @@
 			]
 		},
 		{
-			"name": "Opportunistic Thief",
-			"source": "HWCS",
-			"page": 47,
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
-			"entries": [
-				"You have learned the tricks of the trade of thievery, allowing you to exploit opportunities for pick-pocketing both in and out of combat. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"When a creature fails a melee attack roll against you in combat, you can make a Dexterity ({@skill Sleight of Hand}) check against a DC equal to 10 + the target's Dexterity modifier. On a success, you may steal any one item that is not being held or worn by the target.",
-						"Whenever you successfully use your {@skill Sleight of Hand} skill outside of combat to steal an object, you may immediately conceal it flawlessly on your person, or put another object you possess in its place."
-					]
-				}
-			]
-		},
-		{
 			"name": "Orcish Fury",
 			"source": "XGE",
 			"page": 75,
@@ -2818,71 +2530,6 @@
 			]
 		},
 		{
-			"name": "Outlands Envoy",
-			"source": "SatO",
-			"page": 10,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato|scion of the outer planes (the outlands)"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You have spent significant time in Sigil or the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Crossroads Emissary",
-							"entries": [
-								"You learn the {@spell misty step} and {@spell tongues} spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast {@spell tongues} using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Perfect Landing",
-			"source": "HWCS",
-			"page": 47,
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
-			"entries": [
-				"Years of living at great heights have taught you how to fall more gracefully. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"Reduce the damage die for fall damage from a d6 to a d4.",
-						"You do not fall prone after taking falling damage.",
-						"You do not take damage for the first 30 feet of your fall."
-					]
-				}
-			]
-		},
-		{
 			"name": "Piercer",
 			"source": "TCE",
 			"page": 80,
@@ -2907,53 +2554,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Planar Wanderer",
-			"source": "SatO",
-			"page": 11,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato"
-					]
-				}
-			],
-			"traitTags": [
-				"Damage Resistance"
-			],
-			"entries": [
-				"You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Planar Adaptation",
-							"entries": [
-								"When you finish a long rest, you gain resistance to either acid, cold, or fire damage (your choice) until you finish your next long rest."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Portal Cracker",
-							"entries": [
-								"Your experience with portals allows you to open them without a portal key. As an action, you can concentrate on a portal you're aware of that is within 5 feet of yourself and make a {@dc 20} Intelligence ({@skill Arcana}) check. On a failed check, you take {@damage 3d8} psychic damage and can't use this benefit on that portal again until you finish a long rest. On a successful check, you can force the portal open or closed for 1 hour. For that duration, the portal doesn't respond to its portal key unless a creature employing the key succeeds on a {@dc 20} Intelligence ({@skill Arcana}) check as an action."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Portal Sense",
-							"entries": [
-								"You know the direction to the last planar portal you used while you and the portal are on the same plane of existence. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind {@quickref Cover||3||total cover}. Once you detect a portal with this action, you can't use the action again until you finish a long rest."
-							]
-						}
-					]
-				}
-			],
-			"hasFluffImages": true
 		},
 		{
 			"name": "Poisoner",
@@ -3221,50 +2821,6 @@
 			]
 		},
 		{
-			"name": "Righteous Heritor",
-			"source": "SatO",
-			"page": 11,
-			"prerequisite": [
-				{
-					"level": 4,
-					"feat": [
-						"scion of the outer planes|sato|scion of the outer planes (good outer plane)"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You can channel cosmic forces of good to gain these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Soothe Pain",
-							"entries": [
-								"When you or a creature within 30 feet of you takes damage, you can use your reaction to reduce that damage by {@dice 1d10} + your proficiency bonus. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Ritual Caster",
 			"source": "PHB",
 			"page": 169,
@@ -3512,151 +3068,6 @@
 			"page": 169,
 			"entries": [
 				"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total."
-			]
-		},
-		{
-			"name": "Scion of the Outer Planes",
-			"source": "SatO",
-			"page": 12,
-			"prerequisite": [
-				{
-					"campaign": [
-						"Planescape"
-					]
-				}
-			],
-			"resist": [
-				{
-					"choose": {
-						"from": [
-							"poison",
-							"necrotic",
-							"radiant",
-							"force",
-							"psychic"
-						]
-					}
-				}
-			],
-			"additionalSpells": [
-				{
-					"name": "Chaotic Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"minor illusion#c"
-						]
-					}
-				},
-				{
-					"name": "Evil Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"chill touch#c"
-						]
-					}
-				},
-				{
-					"name": "Good Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"sacred flame#c"
-						]
-					}
-				},
-				{
-					"name": "Lawful Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"guidance#c"
-						]
-					}
-				},
-				{
-					"name": "The Outlands",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				"Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
-				{
-					"type": "table",
-					"colStyles": [
-						"col-4",
-						"col-4",
-						"col-4"
-					],
-					"colLabels": [
-						"Plane",
-						"Damage Resistance",
-						"Cantrip"
-					],
-					"rows": [
-						[
-							"Chaotic Outer Plane",
-							"Poison",
-							"{@spell Minor illusion}"
-						],
-						[
-							"Evil Outer Plane",
-							"Necrotic",
-							"{@spell Chill touch}"
-						],
-						[
-							"Good Outer Plane",
-							"Radiant",
-							"{@spell Sacred flame}"
-						],
-						[
-							"Lawful Outer Plane",
-							"Force",
-							"{@spell Guidance}"
-						],
-						[
-							"The Outlands",
-							"Psychic",
-							"{@spell Mage hand}"
-						]
-					]
-				}
 			]
 		},
 		{
@@ -3991,27 +3402,6 @@
 			]
 		},
 		{
-			"name": "Speech of the Ancient Beasts",
-			"source": "HWCS",
-			"page": 47,
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
-			"entries": [
-				"You have a special connection with the natural world. Great beasts regard you as their kin, and you possess the ability to speak the languages of the most powerful and mystic of their kind. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"Beasts of Large size or larger have a friendly disposition toward you unless you have attacked them.",
-						"You have advantage on Charisma checks made against beasts that are of Large size or larger.",
-						"You can speak and understand Giant Eagle, Giant Elk, and Giant Owl. You can otherwise be understood by any beast of Large size or larger, whether or not they speak a language. Beasts with Intelligence scores of 4 or lower may only be able to understand simple concepts."
-					]
-				}
-			]
-		},
-		{
 			"name": "Spell Sniper",
 			"source": "PHB",
 			"page": 170,
@@ -4119,6 +3509,7 @@
 			"entries": [
 				"Through intense focus, training, and dedication, you've harnessed the techniques of rapid spellcasting.",
 				"When you use your bonus action to cast a spell of 1st level or higher, you can also use your action to cast another spell of 1st level or higher. However, if you cast two or more spells in a single turn, only one of them can be 3rd level or higher.",
+				"Can't be used with Metamagic options.",
 				{
 					"type": "inset",
 					"name": "Rules Tip: Casting Multiple Spells",
@@ -4815,54 +4206,6 @@
 			]
 		},
 		{
-			"name": "Svirfneblin Magic",
-			"source": "MTF",
-			"page": 114,
-			"additionalSources": [
-				{
-					"source": "EEPC",
-					"page": 7
-				},
-				{
-					"source": "SCAG",
-					"page": 115
-				}
-			],
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "gnome",
-							"subrace": "deep"
-						}
-					]
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "int",
-					"innate": {
-						"_": {
-							"will": [
-								"nondetection"
-							],
-							"daily": {
-								"1e": [
-									"blindness/deafness",
-									"blur",
-									"disguise self"
-								]
-							}
-						}
-					}
-				}
-			],
-			"entries": [
-				"You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast {@spell nondetection} on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: {@spell blindness/deafness}, {@spell blur}, and {@spell disguise self}. You regain the ability to cast these spells when you finish a long rest.",
-				"Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels."
-			]
-		},
-		{
 			"name": "Tavern Brawler",
 			"source": "PHB",
 			"page": 170,
@@ -5083,7 +4426,7 @@
 						"When you cause a creature to make a Strength, Dexterity, or Constitution {@quickref saving throws|PHB|2|1|saving throw}, roll a {@dice d4} and reduce their save by the amount rolled."
 					]
 				},
-				"The damage you take to gain a blood boon can't be reduced in any way."
+				"The damage you take to gain a blood boon can't be reduced in any way. This feature doesn't accumulate with other features or itself."
 			]
 		},
 		{
@@ -5178,28 +4521,6 @@
 			],
 			"entries": [
 				"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the {@spell longstrider} and {@spell pass without trace} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
-			]
-		},
-		{
-			"name": "Woodwise",
-			"source": "HWCS",
-			"page": 47,
-			"skillProficiencies": [
-				{
-					"survival": true,
-					"nature": true
-				}
-			],
-			"entries": [
-				"You have lived your entire life in the gnarled, wooded areas of the world. You are adept at finding your way through even the most treacherous terrain. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You gain proficiency in either the {@skill Survival} or {@skill Nature} skill.",
-						"You ignore difficult terrain.",
-						"You cannot become lost in natural surroundings except by magical means."
-					]
-				}
 			]
 		}
 	]
