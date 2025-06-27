@@ -618,6 +618,58 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Chronurgy Magic",
+			"shortName": "Chronurgy",
+			"source": "EGW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 184,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"1": [
+							{
+								"all": "source=EGW"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Chronurgy Magic|Wizard||Chronurgy|EGW|2",
+				"Momentary Stasis|Wizard||Chronurgy|EGW|6",
+				"Arcane Abeyance|Wizard||Chronurgy|EGW|10",
+				"Convergent Future|Wizard||Chronurgy|EGW|14"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Graviturgy Magic",
+			"shortName": "Graviturgy",
+			"source": "EGW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 185,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"1": [
+							{
+								"all": "source=EGW"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Graviturgy Magic|Wizard||Graviturgy|EGW|2",
+				"Gravity Well|Wizard||Graviturgy|EGW|6",
+				"Violent Attraction|Wizard||Graviturgy|EGW|10",
+				"Event Horizon|Wizard||Graviturgy|EGW|14"
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Bladesinging",
 			"shortName": "Bladesinging",
 			"source": "TCE",
@@ -650,6 +702,22 @@
 				"Manifest Mind|Wizard||Scribes|TCE|6",
 				"Master Scrivener|Wizard||Scribes|TCE|10",
 				"One with the Word|Wizard||Scribes|TCE|14"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Blood Magic",
+			"shortName": "Blood Magic",
+			"source": "TDCSR",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 178,
+			"subclassFeatures": [
+				"Blood Magic|Wizard|PHB|Blood Magic|TDCSR|2",
+				"Bond of Mutual Suffering|Wizard|PHB|Blood Magic|TDCSR|6",
+				"Glyph of Hemorrhaging|Wizard|PHB|Blood Magic|TDCSR|10",
+				"Bond of Mutual Suffering (14th Level)|Wizard|PHB|Blood Magic|TDCSR|14",
+				"Thicker than Water|Wizard|PHB|Blood Magic|TDCSR|14"
 			],
 			"hasFluffImages": true
 		}

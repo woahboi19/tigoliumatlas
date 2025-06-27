@@ -832,6 +832,47 @@
 				"Limited Wish|Warlock||Genie|TCE|14"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "The Undead",
+			"shortName": "Undead",
+			"source": "VRGR",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"page": 30,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"bane",
+							"false life"
+						],
+						"s2": [
+							"blindness/deafness",
+							"phantasmal force"
+						],
+						"s3": [
+							"phantom steed",
+							"speak with dead"
+						],
+						"s4": [
+							"death ward",
+							"greater invisibility"
+						],
+						"s5": [
+							"antilife shell",
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"The Undead|Warlock||Undead|VRGR|1",
+				"Grave Touched|Warlock||Undead|VRGR|6",
+				"Necrotic Husk|Warlock||Undead|VRGR|10",
+				"Spirit Projection|Warlock||Undead|VRGR|14"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [

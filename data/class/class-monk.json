@@ -722,6 +722,24 @@
 				"Ascendant Aspect|Monk||Ascendant Dragon|FTD|17"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Way of the Cobalt Soul",
+			"shortName": "Cobalt Soul",
+			"source": "TDCSR",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 173,
+			"subclassFeatures": [
+				"Way of the Cobalt Soul|Monk|PHB|Cobalt Soul|TDCSR|3",
+				"Extort Truth|Monk|PHB|Cobalt Soul|TDCSR|6",
+				"Mystical Erudition|Monk|PHB|Cobalt Soul|TDCSR|6",
+				"Mystical Erudition (11th Level)|Monk|PHB|Cobalt Soul|TDCSR|11",
+				"Mystical Erudition (17th Level)|Monk|PHB|Cobalt Soul|TDCSR|17",
+				"Mind of Mercury|Monk|PHB|Cobalt Soul|TDCSR|11",
+				"Debilitating Barrage|Monk|PHB|Cobalt Soul|TDCSR|17"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [

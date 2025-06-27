@@ -722,6 +722,45 @@
 				"Infectious Inspiration|Bard||Eloquence|TCE|14"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "College of Spirits",
+			"shortName": "Spirits",
+			"source": "VRGR",
+			"className": "Bard",
+			"classSource": "PHB",
+			"page": 28,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"guidance#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"College of Spirits|Bard||Spirits|VRGR|3",
+				"Spirit Session|Bard||Spirits|VRGR|6",
+				"Mystical Connection|Bard||Spirits|VRGR|14"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "College of Tragedy",
+			"shortName": "Tragedy",
+			"source": "TDCSR",
+			"className": "Bard",
+			"classSource": "PHB",
+			"page": 167,
+			"subclassFeatures": [
+				"College of Tragedy|Bard|PHB|Tragedy|TDCSR|3",
+				"Tale of Hubris|Bard|PHB|Tragedy|TDCSR|6",
+				"Impending Misfortune|Bard|PHB|Tragedy|TDCSR|6",
+				"Tale of Hubris (14th Level)|Bard|PHB|Tragedy|TDCSR|14",
+				"Nimbus of Pathos|Bard|PHB|Tragedy|TDCSR|14"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [

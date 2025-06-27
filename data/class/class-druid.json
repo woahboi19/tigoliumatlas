@@ -918,6 +918,23 @@
 				"Blazing Revival|Druid||Wildfire|TCE|14"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Circle of the Blighted",
+			"shortName": "Blighted",
+			"source": "TDCSR",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 171,
+			"subclassFeatures": [
+				"Circle of the Blighted|Druid|PHB|Blighted|TDCSR|2",
+				"Call of the Shadowseeds|Druid|PHB|Blighted|TDCSR|6",
+				"Defile Ground (10th Level)|Druid|PHB|Blighted|TDCSR|10",
+				"Defile Ground (14th Level)|Druid|PHB|Blighted|TDCSR|14",
+				"Foul Conjuration|Druid|PHB|Blighted|TDCSR|10",
+				"Incarnation of Corruption|Druid|PHB|Blighted|TDCSR|14"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [

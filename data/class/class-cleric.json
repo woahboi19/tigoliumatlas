@@ -1156,6 +1156,93 @@
 				"Twilight Shroud|Cleric||Twilight|TCE|17"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Blood Domain",
+			"shortName": "Blood",
+			"source": "TDCSR",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 168,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"false life",
+							"sleep"
+						],
+						"3": [
+							"hold person",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"haste",
+							"slow"
+						],
+						"7": [
+							"blight",
+							"stoneskin"
+						],
+						"9": [
+							"dominate person",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Blood Domain|Cleric|PHB|Blood|TDCSR|1",
+				"Channel Divinity: Crimson Bond|Cleric|PHB|Blood|TDCSR|2",
+				"Channel Divinity: Blood Puppet|Cleric|PHB|Blood|TDCSR|6",
+				"Sanguine Recall|Cleric|PHB|Blood|TDCSR|6",
+				"Divine Strike|Cleric|PHB|Blood|TDCSR|8",
+				"Divine Strike (14th Level)|Cleric|PHB|Blood|TDCSR|14",
+				"Channel Divinity: Blood Puppet (17th Level)|Cleric|PHB|Blood|TDCSR|17",
+				"Vascular Corruption Aura|Cleric|PHB|Blood|TDCSR|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Moon Domain",
+			"shortName": "Moon",
+			"source": "TDCSR",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 169,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"faerie fire",
+							"silent image"
+						],
+						"3": [
+							"invisibility",
+							"moonbeam"
+						],
+						"5": [
+							"hypnotic pattern",
+							"major image"
+						],
+						"7": [
+							"greater invisibility",
+							"hallucinatory terrain"
+						],
+						"9": [
+							"dream",
+							"passwall"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Moon Domain|Cleric|PHB|Moon|TDCSR|1",
+				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon|TDCSR|2",
+				"Channel Divinity: Mind of Two Moons|Cleric|PHB|Moon|TDCSR|6",
+				"Empowered Cantrips|Cleric|PHB|Moon|TDCSR|8",
+				"Eclipse of Ill Omen|Cleric|PHB|Moon|TDCSR|17"
+			],
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [
