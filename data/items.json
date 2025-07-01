@@ -13652,7 +13652,7 @@
 			"tier": "minor",
 			"rarity": "bakır",
 			"weight": 0.5,
-			"entries": ["<b>20 Altın</b>", "You regain {@dice 2d4 + 2} hit points when you drink this potion. The potion's red liquid glimmers when agitated."],
+			"entries": ["<b>50 Altın</b>", "You regain {@dice 2d4 + 2} hit points when you drink this potion. The potion's red liquid glimmers when agitated."],
 			"lootTables": ["Magic Item Table A"],
 			"miscTags": ["CNS"]
 		},
